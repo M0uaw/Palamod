@@ -834,6 +834,20 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "TitaneAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/titane_axe.json",
+          "src/main/java/net/mcreator/paladium/item/TitaneAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -882,6 +896,7 @@
       "~CUSTOM:AmethystOre"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:TitaneAxe",
       "~CUSTOM:AmethystAxe"
     ],
     "BLOCKS:minecraft:indestructible": [
@@ -941,6 +956,7 @@
       "item.paladium.amethyst_axe": "Amethyst Axe",
       "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
+      "item.paladium.titane_axe": "Titane Axe",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
       "item.paladium.amethyst_hammer": "Amethyst Hammer",
@@ -997,6 +1013,7 @@
       "item.paladium.amethyst_axe": "Amethyst Axe",
       "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
+      "item.paladium.titane_axe": "Titane Axe",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
       "item.paladium.amethyst_hammer": "Amethyst Hammer",

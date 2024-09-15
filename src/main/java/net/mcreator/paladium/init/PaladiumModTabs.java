@@ -71,6 +71,7 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.AMETHYST_SHOVEL.get());
 				tabData.accept(PaladiumModItems.AMETHYST_HAMMER.get());
 				tabData.accept(PaladiumModItems.TITANE_PICKAXE.get());
+				tabData.accept(PaladiumModItems.TITANE_AXE.get());
 			})
 
 					.build());
