@@ -848,6 +848,20 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "TitaneShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/titane_shovel.json",
+          "src/main/java/net/mcreator/paladium/item/TitaneShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -926,6 +940,7 @@
       "~CUSTOM:AmethystSword"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TitaneShovel",
       "~CUSTOM:AmethystShovel"
     ]
   },
@@ -937,6 +952,7 @@
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.titane_shovel": "Titane Shovel",
       "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.titane_armor_helmet": "Titane Helmet",
       "item.paladium.endium_nugget": "Endium Nugget",
@@ -994,6 +1010,7 @@
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.titane_shovel": "Titane Shovel",
       "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.titane_armor_helmet": "Titane Helmet",
       "item.paladium.endium_nugget": "Endium Nugget",
