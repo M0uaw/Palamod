@@ -820,6 +820,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "TitanePickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/TitanePickaxeItem.java",
+          "src/main/resources/assets/paladium/models/item/titane_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -847,6 +861,7 @@
       "~CUSTOM:AmethystOre"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TitanePickaxe",
       "~CUSTOM:AmethystHammer",
       "~CUSTOM:AmethystPickaxe"
     ],
@@ -914,8 +929,8 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -924,6 +939,7 @@
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
       "item.paladium.endium_armor_chestplate": "Endium Chestplate",
       "item.paladium.amethyst_axe": "Amethyst Axe",
+      "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
@@ -969,8 +985,8 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -979,6 +995,7 @@
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
       "item.paladium.endium_armor_chestplate": "Endium Chestplate",
       "item.paladium.amethyst_axe": "Amethyst Axe",
+      "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
