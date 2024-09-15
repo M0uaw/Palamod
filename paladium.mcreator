@@ -867,11 +867,6 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:forge:air": [
-      "Blocks.AIR",
-      "Blocks.VOID_AIR",
-      "Blocks.CAVE_AIR"
-    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:TrixiumBlock",
       "~CUSTOM:EndiumBlock",
@@ -888,11 +883,6 @@
       "~CUSTOM:TitaneOre",
       "~CUSTOM:AmethystOre"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:TitanePickaxe",
-      "~CUSTOM:AmethystHammer",
-      "~CUSTOM:AmethystPickaxe"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TrixiumBlock",
       "~CUSTOM:EndiumBlock",
@@ -908,10 +898,6 @@
       "~CUSTOM:PaladiumOre",
       "~CUSTOM:TitaneOre",
       "~CUSTOM:AmethystOre"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:TitaneAxe",
-      "~CUSTOM:AmethystAxe"
     ],
     "BLOCKS:minecraft:indestructible": [
       "Blocks.BEDROCK",
@@ -932,6 +918,15 @@
       "Blocks.STRUCTURE_BLOCK#4",
       "Blocks.JIGSAW"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TitanePickaxe",
+      "~CUSTOM:AmethystHammer",
+      "~CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TitaneAxe",
+      "~CUSTOM:AmethystAxe"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:EndiumSword",
       "~CUSTOM:GreenPaladiumSword",
@@ -942,6 +937,11 @@
     "ITEMS:minecraft:shovels": [
       "~CUSTOM:TitaneShovel",
       "~CUSTOM:AmethystShovel"
+    ],
+    "BLOCKS:forge:air": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
     ]
   },
   "tab_element_order": {},
@@ -953,15 +953,15 @@
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -1011,15 +1011,15 @@
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
