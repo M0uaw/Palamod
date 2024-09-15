@@ -158,7 +158,8 @@
           "src/main/java/net/mcreator/paladium/item/AmethystIngotItem.java",
           "src/main/resources/assets/paladium/models/item/amethyst_ingot.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "TitaneIngot",
@@ -171,7 +172,8 @@
           "src/main/resources/assets/paladium/models/item/titane_ingot.json",
           "src/main/java/net/mcreator/paladium/item/TitaneIngotItem.java"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "PaladiumIngot",
@@ -184,7 +186,8 @@
           "src/main/java/net/mcreator/paladium/item/PaladiumIngotItem.java",
           "src/main/resources/assets/paladium/models/item/paladium_ingot.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "FindiumIngot",
@@ -197,7 +200,8 @@
           "src/main/java/net/mcreator/paladium/item/FindiumIngotItem.java",
           "src/main/resources/assets/paladium/models/item/findium_ingot.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "GreenPaladiumIngot",
@@ -210,7 +214,8 @@
           "src/main/resources/assets/paladium/models/item/green_paladium_ingot.json",
           "src/main/java/net/mcreator/paladium/item/GreenPaladiumIngotItem.java"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "EndiumFragment",
@@ -223,7 +228,8 @@
           "src/main/resources/assets/paladium/models/item/endium_fragment.json",
           "src/main/java/net/mcreator/paladium/item/EndiumFragmentItem.java"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "EndiumNugget",
@@ -236,7 +242,8 @@
           "src/main/java/net/mcreator/paladium/item/EndiumNuggetItem.java",
           "src/main/resources/assets/paladium/models/item/endium_nugget.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "EndiumIngot",
@@ -249,7 +256,8 @@
           "src/main/java/net/mcreator/paladium/item/EndiumIngotItem.java",
           "src/main/resources/assets/paladium/models/item/endium_ingot.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "TrixiumIngot",
@@ -262,7 +270,8 @@
           "src/main/java/net/mcreator/paladium/item/TrixiumIngotItem.java",
           "src/main/resources/assets/paladium/models/item/trixium_ingot.json"
         ]
-      }
+      },
+      "path": "~/ingots-nugget"
     },
     {
       "name": "AmethystBlock",
@@ -394,7 +403,8 @@
           "src/main/java/net/mcreator/paladium/item/AmethystSwordItem.java",
           "src/main/resources/assets/paladium/models/item/amethyst_sword.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "TitaneSword",
@@ -407,7 +417,8 @@
           "src/main/resources/assets/paladium/models/item/titane_sword.json",
           "src/main/java/net/mcreator/paladium/item/TitaneSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "PaladiumSword",
@@ -420,7 +431,8 @@
           "src/main/resources/assets/paladium/models/item/paladium_sword.json",
           "src/main/java/net/mcreator/paladium/item/PaladiumSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "GreenPaladiumSword",
@@ -433,7 +445,8 @@
           "src/main/resources/assets/paladium/models/item/green_paladium_sword.json",
           "src/main/java/net/mcreator/paladium/item/GreenPaladiumSwordItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "EndiumSword",
@@ -446,7 +459,8 @@
           "src/main/java/net/mcreator/paladium/item/EndiumSwordItem.java",
           "src/main/resources/assets/paladium/models/item/endium_sword.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "Amethyst",
@@ -462,7 +476,8 @@
           "src/main/resources/assets/paladium/models/item/amethyst_armor_helmet.json",
           "src/main/resources/assets/paladium/models/item/amethyst_armor_boots.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
       "name": "TitaneArmor",
@@ -478,7 +493,8 @@
           "src/main/resources/assets/paladium/models/item/titane_armor_boots.json",
           "src/main/resources/assets/paladium/models/item/titane_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
       "name": "PaladiumArmor",
@@ -494,7 +510,8 @@
           "src/main/resources/assets/paladium/models/item/paladium_armor_chestplate.json",
           "src/main/resources/assets/paladium/models/item/paladium_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
       "name": "GreenPaladiumArmor",
@@ -510,7 +527,8 @@
           "src/main/resources/assets/paladium/models/item/green_paladium_armor_chestplate.json",
           "src/main/resources/assets/paladium/models/item/green_paladium_armor_leggings.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
       "name": "EndiumArmor",
@@ -526,7 +544,8 @@
           "src/main/resources/assets/paladium/models/item/endium_armor_leggings.json",
           "src/main/resources/assets/paladium/models/item/endium_armor_boots.json"
         ]
-      }
+      },
+      "path": "~/Armors"
     },
     {
       "name": "PaladiumArmorHelmetTickEvent",
@@ -719,7 +738,8 @@
           "src/main/java/net/mcreator/paladium/item/AmethystAxeItem.java",
           "src/main/resources/assets/paladium/models/item/amethyst_axe.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "AmethystPickaxe",
@@ -732,7 +752,8 @@
           "src/main/resources/assets/paladium/models/item/amethyst_pickaxe.json",
           "src/main/java/net/mcreator/paladium/item/AmethystPickaxeItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "AmethystShovel",
@@ -745,7 +766,8 @@
           "src/main/java/net/mcreator/paladium/item/AmethystShovelItem.java",
           "src/main/resources/assets/paladium/models/item/amethyst_shovel.json"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "AmethystHammer",
@@ -758,7 +780,8 @@
           "src/main/resources/assets/paladium/models/item/amethyst_hammer.json",
           "src/main/java/net/mcreator/paladium/item/AmethystHammerItem.java"
         ]
-      }
+      },
+      "path": "~/Tools"
     },
     {
       "name": "HammerBlockDestroyedWithTool",
@@ -891,8 +914,8 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -946,8 +969,8 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -998,6 +1021,18 @@
       },
       {
         "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "ingots-nugget",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Tools",
         "children": []
       }
     ]
