@@ -14,7 +14,10 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.paladium.item.TrixiumIngotItem;
 import net.mcreator.paladium.item.TitaneSwordItem;
+import net.mcreator.paladium.item.TitaneShovelItem;
+import net.mcreator.paladium.item.TitanePickaxeItem;
 import net.mcreator.paladium.item.TitaneIngotItem;
+import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.PaladiumSwordItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
@@ -91,6 +94,9 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> AMETHYST_PICKAXE = REGISTRY.register("amethyst_pickaxe", () -> new AmethystPickaxeItem());
 	public static final RegistryObject<Item> AMETHYST_SHOVEL = REGISTRY.register("amethyst_shovel", () -> new AmethystShovelItem());
 	public static final RegistryObject<Item> AMETHYST_HAMMER = REGISTRY.register("amethyst_hammer", () -> new AmethystHammerItem());
+	public static final RegistryObject<Item> TITANE_AXE = REGISTRY.register("titane_axe", () -> new TitaneAxeItem());
+	public static final RegistryObject<Item> TITANE_PICKAXE = REGISTRY.register("titane_pickaxe", () -> new TitanePickaxeItem());
+	public static final RegistryObject<Item> TITANE_SHOVEL = REGISTRY.register("titane_shovel", () -> new TitaneShovelItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
