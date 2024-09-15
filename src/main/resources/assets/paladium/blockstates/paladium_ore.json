@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "paladium:block/paladium_ore"
+    }
+  }
+}

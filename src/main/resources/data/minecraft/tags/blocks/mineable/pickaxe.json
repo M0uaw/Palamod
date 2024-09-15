@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "paladium:trixium_block",
+    "paladium:endium_block",
+    "paladium:green_paladium_block",
+    "paladium:findium_block",
+    "paladium:paladium_block",
+    "paladium:titane_block",
+    "paladium:amethyst_block",
+    "paladium:trixium_ore",
+    "paladium:endium_ore",
+    "paladium:green_paladium_ore",
+    "paladium:findium_ore",
+    "paladium:paladium_ore",
+    "paladium:titane_ore",
+    "paladium:amethyst_ore"
+  ]
+}

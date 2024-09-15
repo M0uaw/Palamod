@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/trixium_block_1",
+    "up": "paladium:block/trixium_block_1",
+    "north": "paladium:block/trixium_block_1",
+    "east": "paladium:block/trixium_block_1",
+    "south": "paladium:block/trixium_block_1",
+    "west": "paladium:block/trixium_block_1",
+    "particle": "paladium:block/trixium_block_1"
+  },
+  "render_type": "solid"
+}

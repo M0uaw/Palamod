@@ -1,0 +1,42 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethyst",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Amethyst Hammer",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Paladium"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 3.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 1999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AmethystIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "HammerBlockDestroyedWithTool"
+    }
+  }
+}

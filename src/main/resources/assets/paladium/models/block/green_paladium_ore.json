@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/paladium_green_ore",
+    "up": "paladium:block/paladium_green_ore",
+    "north": "paladium:block/paladium_green_ore",
+    "east": "paladium:block/paladium_green_ore",
+    "south": "paladium:block/paladium_green_ore",
+    "west": "paladium:block/paladium_green_ore",
+    "particle": "paladium:block/paladium_green_ore"
+  },
+  "render_type": "solid"
+}

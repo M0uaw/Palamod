@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/endium_nuggets_ore",
+    "up": "paladium:block/endium_nuggets_ore",
+    "north": "paladium:block/endium_nuggets_ore",
+    "east": "paladium:block/endium_nuggets_ore",
+    "south": "paladium:block/endium_nuggets_ore",
+    "west": "paladium:block/endium_nuggets_ore",
+    "particle": "paladium:block/endium_nuggets_ore"
+  },
+  "render_type": "solid"
+}

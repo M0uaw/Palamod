@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/amethyst_ore",
+    "up": "paladium:block/amethyst_ore",
+    "north": "paladium:block/amethyst_ore",
+    "east": "paladium:block/amethyst_ore",
+    "south": "paladium:block/amethyst_ore",
+    "west": "paladium:block/amethyst_ore",
+    "particle": "paladium:block/amethyst_ore"
+  },
+  "render_type": "solid"
+}

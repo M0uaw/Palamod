@@ -1,0 +1,999 @@
+{
+  "mod_elements": [
+    {
+      "name": "AmethystOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/block/AmethystOreBlock.java",
+          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/amethyst_ore_biome_modifier.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/amethyst_ore.json",
+          "src/main/resources/assets/paladium/models/block/amethyst_ore.json",
+          "src/main/resources/assets/paladium/blockstates/amethyst_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/amethyst_ore.json",
+          "src/main/resources/assets/paladium/models/item/amethyst_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Paladium",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TitaneOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/block/TitaneOreBlock.java",
+          "src/main/resources/data/paladium/worldgen/configured_feature/titane_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/titane_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/titane_ore.json",
+          "src/main/resources/assets/paladium/models/item/titane_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/titane_ore_biome_modifier.json",
+          "src/main/resources/assets/paladium/models/block/titane_ore.json",
+          "src/main/resources/assets/paladium/blockstates/titane_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/PaladiumOreBlock.java",
+          "src/main/resources/assets/paladium/blockstates/paladium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/paladium_ore.json",
+          "src/main/resources/assets/paladium/models/block/paladium_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/paladium_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/paladium_ore_biome_modifier.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/paladium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "FindiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "findium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/blockstates/findium_ore.json",
+          "src/main/resources/assets/paladium/models/item/findium_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/findium_ore_biome_modifier.json",
+          "src/main/resources/assets/paladium/models/block/findium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/findium_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/findium_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/findium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/FindiumOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/forge/biome_modifier/green_paladium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/paladium/block/GreenPaladiumOreBlock.java",
+          "src/main/resources/assets/paladium/models/item/green_paladium_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/green_paladium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/green_paladium_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/green_paladium_ore.json",
+          "src/main/resources/assets/paladium/models/block/green_paladium_ore.json",
+          "src/main/resources/assets/paladium/blockstates/green_paladium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "EndiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/blockstates/endium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/EndiumOreBlock.java",
+          "src/main/resources/data/paladium/loot_tables/blocks/endium_ore.json",
+          "src/main/resources/assets/paladium/models/item/endium_ore.json",
+          "src/main/resources/assets/paladium/models/block/endium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TrixiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trixium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/loot_tables/blocks/trixium_ore.json",
+          "src/main/resources/assets/paladium/models/block/trixium_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/trixium_ore_biome_modifier.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/trixium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/TrixiumOreBlock.java",
+          "src/main/resources/assets/paladium/models/item/trixium_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/trixium_ore.json",
+          "src/main/resources/assets/paladium/blockstates/trixium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/AmethystIngotItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaneIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/titane_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/TitaneIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/PaladiumIngotItem.java",
+          "src/main/resources/assets/paladium/models/item/paladium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "FindiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "findium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/FindiumIngotItem.java",
+          "src/main/resources/assets/paladium/models/item/findium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/green_paladium_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/GreenPaladiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndiumFragment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/endium_fragment.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumFragmentItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndiumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/endium_nugget.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/endium_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TrixiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trixium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/trixium_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/TrixiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/block/amethyst_block.json",
+          "src/main/java/net/mcreator/paladium/block/AmethystBlockBlock.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_block.json",
+          "src/main/resources/assets/paladium/blockstates/amethyst_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaneBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/loot_tables/blocks/titane_block.json",
+          "src/main/resources/assets/paladium/models/item/titane_block.json",
+          "src/main/resources/assets/paladium/models/block/titane_block.json",
+          "src/main/resources/assets/paladium/blockstates/titane_block.json",
+          "src/main/java/net/mcreator/paladium/block/TitaneBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/block/PaladiumBlockBlock.java",
+          "src/main/resources/assets/paladium/models/block/paladium_block.json",
+          "src/main/resources/assets/paladium/blockstates/paladium_block.json",
+          "src/main/resources/assets/paladium/models/item/paladium_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/paladium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "FindiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "findium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/block/FindiumBlockBlock.java",
+          "src/main/resources/data/paladium/loot_tables/blocks/findium_block.json",
+          "src/main/resources/assets/paladium/blockstates/findium_block.json",
+          "src/main/resources/assets/paladium/models/item/findium_block.json",
+          "src/main/resources/assets/paladium/models/block/findium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/block/GreenPaladiumBlockBlock.java",
+          "src/main/resources/assets/paladium/models/item/green_paladium_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/green_paladium_block.json",
+          "src/main/resources/assets/paladium/blockstates/green_paladium_block.json",
+          "src/main/resources/assets/paladium/models/block/green_paladium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "EndiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/loot_tables/blocks/endium_block.json",
+          "src/main/resources/assets/paladium/models/item/endium_block.json",
+          "src/main/resources/assets/paladium/blockstates/endium_block.json",
+          "src/main/resources/assets/paladium/models/block/endium_block.json",
+          "src/main/java/net/mcreator/paladium/block/EndiumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "TrixiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trixium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/trixium_block.json",
+          "src/main/resources/assets/paladium/blockstates/trixium_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/trixium_block.json",
+          "src/main/resources/assets/paladium/models/block/trixium_block.json",
+          "src/main/java/net/mcreator/paladium/block/TrixiumBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/AmethystSwordItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaneSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/titane_sword.json",
+          "src/main/java/net/mcreator/paladium/item/TitaneSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_sword.json",
+          "src/main/java/net/mcreator/paladium/item/PaladiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/green_paladium_sword.json",
+          "src/main/java/net/mcreator/paladium/item/GreenPaladiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "EndiumSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/endium_sword.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Amethyst",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_helmet.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_chestplate.json",
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaneArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/titane_armor_chestplate.json",
+          "src/main/resources/assets/paladium/models/item/titane_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/titane_armor_helmet.json",
+          "src/main/resources/assets/paladium/models/item/titane_armor_boots.json",
+          "src/main/java/net/mcreator/paladium/item/TitaneArmorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_armor_helmet.json",
+          "src/main/resources/assets/paladium/models/item/paladium_armor_boots.json",
+          "src/main/java/net/mcreator/paladium/item/PaladiumArmorItem.java",
+          "src/main/resources/assets/paladium/models/item/paladium_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/paladium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_boots.json",
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_helmet.json",
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_leggings.json",
+          "src/main/java/net/mcreator/paladium/item/GreenPaladiumArmorItem.java",
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "EndiumArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/endium_armor_chestplate.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumArmorItem.java",
+          "src/main/resources/assets/paladium/models/item/endium_armor_boots.json",
+          "src/main/resources/assets/paladium/models/item/endium_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/endium_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumArmorHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/PaladiumArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PaladiumArmorBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_armor_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/PaladiumArmorBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumArmorHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/GreenPaladiumArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumArmorBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_armor_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/GreenPaladiumArmorBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumArmorChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_armor_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/GreenPaladiumArmorChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GreenPaladiumArmorLeggingsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_paladium_armor_leggings_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/GreenPaladiumArmorLeggingsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndiumArmorHelmetTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/EndiumArmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndiumArmorChestplateTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_chestplate_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/EndiumArmorChestplateTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndiumArmorBootsTickEvent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endium_armor_boots_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/EndiumArmorBootsTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FullEndiumArmorEffect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_endium_armor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/FullEndiumArmorEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/amethyst_axe.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/AmethystPickaxeItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/AmethystShovelItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/amethyst_hammer.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystHammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/HammerBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TrixiumBlock",
+      "~CUSTOM:EndiumBlock",
+      "~CUSTOM:GreenPaladiumBlock",
+      "~CUSTOM:FindiumBlock",
+      "~CUSTOM:PaladiumBlock",
+      "~CUSTOM:TitaneBlock",
+      "~CUSTOM:AmethystBlock",
+      "~CUSTOM:TrixiumOre",
+      "~CUSTOM:EndiumOre",
+      "~CUSTOM:GreenPaladiumOre",
+      "~CUSTOM:FindiumOre",
+      "~CUSTOM:PaladiumOre",
+      "~CUSTOM:TitaneOre",
+      "~CUSTOM:AmethystOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TrixiumBlock",
+      "~CUSTOM:EndiumBlock",
+      "~CUSTOM:GreenPaladiumBlock",
+      "~CUSTOM:FindiumBlock",
+      "~CUSTOM:PaladiumBlock",
+      "~CUSTOM:TitaneBlock",
+      "~CUSTOM:AmethystBlock",
+      "~CUSTOM:TrixiumOre",
+      "~CUSTOM:EndiumOre",
+      "~CUSTOM:GreenPaladiumOre",
+      "~CUSTOM:FindiumOre",
+      "~CUSTOM:PaladiumOre",
+      "~CUSTOM:TitaneOre",
+      "~CUSTOM:AmethystOre"
+    ],
+    "BLOCKS:minecraft:indestructible": [
+      "Blocks.BEDROCK",
+      "Blocks.END_PORTAL_FRAME",
+      "Blocks.END_PORTAL",
+      "Blocks.PORTAL",
+      "Blocks.REINFORCED_DEEPSLATE",
+      "Blocks.LIGHT",
+      "Blocks.COMMAND_BLOCK",
+      "Blocks.REPEATING_COMMAND_BLOCK",
+      "Blocks.CHAIN_COMMAND_BLOCK",
+      "Blocks.BARRIER",
+      "Blocks.STRUCTURE_VOID",
+      "Blocks.STRUCTURE_BLOCK",
+      "Blocks.STRUCTURE_BLOCK#1",
+      "Blocks.STRUCTURE_BLOCK#2",
+      "Blocks.STRUCTURE_BLOCK#3",
+      "Blocks.STRUCTURE_BLOCK#4",
+      "Blocks.JIGSAW"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:AmethystHammer",
+      "~CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:AmethystAxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:EndiumSword",
+      "~CUSTOM:GreenPaladiumSword",
+      "~CUSTOM:PaladiumSword",
+      "~CUSTOM:TitaneSword",
+      "~CUSTOM:AmethystSword"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:AmethystShovel"
+    ],
+    "BLOCKS:forge:air": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
+      "item.paladium.paladium_armor_boots": "Paladium Boots",
+      "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
+      "item.paladium.amethyst_ingot": "Amethyst Ingot",
+      "block.paladium.findium_ore": "Findium Ore",
+      "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
+      "item.paladium.titane_ingot": "Titane Ingot",
+      "block.paladium.findium_block": "Findium Block",
+      "item.paladium.findium_ingot": "Findium Ingot",
+      "item.paladium.endium_sword": "Endium Sword",
+      "item.paladium.endium_armor_boots": "Endium Boots",
+      "block.paladium.green_paladium_ore": "Green Paladium Ore",
+      "item.paladium.endium_armor_chestplate": "Endium Chestplate",
+      "item.paladium.amethyst_axe": "Amethyst Axe",
+      "block.paladium.titane_block": "Titane Block",
+      "block.paladium.trixium_ore": "Trixium Ore",
+      "item.paladium.paladium_armor_helmet": "Paladium Helmet",
+      "item.paladium.amethyst_hammer": "Amethyst Hammer",
+      "block.paladium.amethyst_ore": "Amethyst Ore",
+      "item.paladium.amethyst_shovel": "Amethyst Shovel",
+      "item.paladium.green_paladium_armor_leggings": "Green Paladium Leggings",
+      "item.paladium.trixium_ingot": "Trixium Ingot",
+      "item.paladium.paladium_sword": "Paladium Sword",
+      "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
+      "block.paladium.paladium_ore": "Paladium Ore",
+      "item.paladium.titane_armor_leggings": "Titane Leggings",
+      "item.paladium.green_paladium_armor_helmet": "Green Paladium Helmet",
+      "item.paladium.titane_sword": "Titane Sword",
+      "block.paladium.paladium_block": "Paladium Block",
+      "block.paladium.amethyst_block": "Amethyst Block",
+      "block.paladium.trixium_block": "Trixium Block",
+      "item.paladium.paladium_armor_chestplate": "Paladium Chestplate",
+      "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "block.paladium.endium_block": "Endium Block",
+      "item.paladium.green_paladium_sword": "Green Paladium Sword",
+      "item.paladium.endium_armor_helmet": "Endium Helmet",
+      "item.paladium.endium_fragment": "Endium Fragment",
+      "item.paladium.endium_armor_leggings": "Endium Leggings",
+      "item.paladium.titane_armor_chestplate": "Titane Chestplate",
+      "item_group.paladium.paladium": "PaladiumMod",
+      "item.paladium.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.paladium.endium_ingot": "Endium Ingot",
+      "item.paladium.titane_armor_boots": "Titane Boots",
+      "item.paladium.paladium_armor_leggings": "Paladium Leggings",
+      "block.paladium.green_paladium_block": "Green Paladium Block"
+    },
+    "fr_fr": {
+      "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
+      "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
+      "item.paladium.paladium_armor_boots": "Paladium Boots",
+      "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
+      "item.paladium.amethyst_ingot": "Amethyst Ingot",
+      "block.paladium.findium_ore": "Findium Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.titane_ingot": "Titane Ingot",
+      "block.paladium.findium_block": "Findium Block",
+      "item.paladium.findium_ingot": "Findium Ingot",
+      "item.paladium.endium_sword": "Endium Sword",
+      "item.paladium.endium_armor_boots": "Endium Boots",
+      "block.paladium.green_paladium_ore": "Green Paladium Ore",
+      "item.paladium.endium_armor_chestplate": "Endium Chestplate",
+      "item.paladium.amethyst_axe": "Amethyst Axe",
+      "block.paladium.titane_block": "Titane Block",
+      "block.paladium.trixium_ore": "Trixium Ore",
+      "item.paladium.paladium_armor_helmet": "Paladium Helmet",
+      "item.paladium.amethyst_hammer": "Amethyst Hammer",
+      "block.paladium.amethyst_ore": "Amethyst Ore",
+      "item.paladium.amethyst_shovel": "Amethyst Shovel",
+      "item.paladium.green_paladium_armor_leggings": "Green Paladium Leggings",
+      "item.paladium.trixium_ingot": "Trixium Ingot",
+      "item.paladium.paladium_sword": "Paladium Sword",
+      "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
+      "block.paladium.paladium_ore": "Paladium Ore",
+      "item.paladium.titane_armor_leggings": "Titane Leggings",
+      "item.paladium.green_paladium_armor_helmet": "Green Paladium Helmet",
+      "item.paladium.titane_sword": "Titane Sword",
+      "block.paladium.paladium_block": "Paladium Block",
+      "block.paladium.amethyst_block": "Bloc d\u0027Amethyst",
+      "block.paladium.trixium_block": "Trixium Block",
+      "item.paladium.paladium_armor_chestplate": "Paladium Chestplate",
+      "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "block.paladium.endium_block": "Endium Block",
+      "item.paladium.green_paladium_sword": "Green Paladium Sword",
+      "item.paladium.endium_armor_helmet": "Endium Helmet",
+      "item.paladium.endium_fragment": "Endium Fragment",
+      "item.paladium.endium_armor_leggings": "Endium Leggings",
+      "item.paladium.titane_armor_chestplate": "Titane Chestplate",
+      "item_group.paladium.paladium": "PaladiumMod",
+      "item.paladium.amethyst_pickaxe": "Amethyst Pickaxe",
+      "item.paladium.endium_ingot": "Endium Ingot",
+      "item.paladium.titane_armor_boots": "Titane Boots",
+      "item.paladium.paladium_armor_leggings": "Paladium Leggings",
+      "block.paladium.green_paladium_block": "Green Paladium Block"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paladium",
+    "modName": "Paladium",
+    "version": "1.0.0",
+    "author": "scrat, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.paladium"
+  },
+  "mcreatorVersion": 202400232117
+}

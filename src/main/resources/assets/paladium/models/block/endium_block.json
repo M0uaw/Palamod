@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/endium_block",
+    "up": "paladium:block/endium_block",
+    "north": "paladium:block/endium_block",
+    "east": "paladium:block/endium_block",
+    "south": "paladium:block/endium_block",
+    "west": "paladium:block/endium_block",
+    "particle": "paladium:block/endium_block"
+  },
+  "render_type": "solid"
+}

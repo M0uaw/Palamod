@@ -1,0 +1,39 @@
+{
+  "_fv": 66,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "amethyst_axe",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Amethyst Axe",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Paladium"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 10,
+    "damageVsEntity": 8.5,
+    "usageCount": 1999,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:AmethystIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
