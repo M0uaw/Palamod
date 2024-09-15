@@ -15,6 +15,7 @@ import net.mcreator.paladium.block.TrixiumBlockBlock;
 import net.mcreator.paladium.block.TitaneOreBlock;
 import net.mcreator.paladium.block.TitaneBlockBlock;
 import net.mcreator.paladium.block.PaladiumOreBlock;
+import net.mcreator.paladium.block.PaladiumLuckyBlockBlock;
 import net.mcreator.paladium.block.PaladiumBlockBlock;
 import net.mcreator.paladium.block.GreenPaladiumOreBlock;
 import net.mcreator.paladium.block.GreenPaladiumBlockBlock;
@@ -42,6 +43,7 @@ public class PaladiumModBlocks {
 	public static final RegistryObject<Block> GREEN_PALADIUM_BLOCK = REGISTRY.register("green_paladium_block", () -> new GreenPaladiumBlockBlock());
 	public static final RegistryObject<Block> ENDIUM_BLOCK = REGISTRY.register("endium_block", () -> new EndiumBlockBlock());
 	public static final RegistryObject<Block> TRIXIUM_BLOCK = REGISTRY.register("trixium_block", () -> new TrixiumBlockBlock());
+	public static final RegistryObject<Block> PALADIUM_LUCKY_BLOCK = REGISTRY.register("paladium_lucky_block", () -> new PaladiumLuckyBlockBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }
