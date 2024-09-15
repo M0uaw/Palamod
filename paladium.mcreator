@@ -8,14 +8,14 @@
       "registry_name": "amethyst_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/blockstates/amethyst_ore.json",
-          "src/main/resources/data/paladium/worldgen/configured_feature/amethyst_ore.json",
-          "src/main/resources/data/paladium/forge/biome_modifier/amethyst_ore_biome_modifier.json",
-          "src/main/resources/assets/paladium/models/item/amethyst_ore.json",
           "src/main/java/net/mcreator/paladium/block/AmethystOreBlock.java",
+          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_ore.json",
+          "src/main/resources/data/paladium/forge/biome_modifier/amethyst_ore_biome_modifier.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/amethyst_ore.json",
           "src/main/resources/assets/paladium/models/block/amethyst_ore.json",
+          "src/main/resources/assets/paladium/blockstates/amethyst_ore.json",
           "src/main/resources/data/paladium/worldgen/placed_feature/amethyst_ore.json",
-          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_ore.json"
+          "src/main/resources/assets/paladium/models/item/amethyst_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -38,14 +38,14 @@
       "registry_name": "titane_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/paladium/worldgen/configured_feature/titane_ore.json",
-          "src/main/resources/assets/paladium/models/item/titane_ore.json",
-          "src/main/resources/assets/paladium/models/block/titane_ore.json",
-          "src/main/resources/assets/paladium/blockstates/titane_ore.json",
           "src/main/java/net/mcreator/paladium/block/TitaneOreBlock.java",
+          "src/main/resources/data/paladium/worldgen/configured_feature/titane_ore.json",
           "src/main/resources/data/paladium/worldgen/placed_feature/titane_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/titane_ore.json",
+          "src/main/resources/assets/paladium/models/item/titane_ore.json",
           "src/main/resources/data/paladium/forge/biome_modifier/titane_ore_biome_modifier.json",
-          "src/main/resources/data/paladium/loot_tables/blocks/titane_ore.json"
+          "src/main/resources/assets/paladium/models/block/titane_ore.json",
+          "src/main/resources/assets/paladium/blockstates/titane_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -58,14 +58,14 @@
       "registry_name": "paladium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/block/paladium_ore.json",
-          "src/main/java/net/mcreator/paladium/block/PaladiumOreBlock.java",
-          "src/main/resources/data/paladium/loot_tables/blocks/paladium_ore.json",
-          "src/main/resources/data/paladium/worldgen/placed_feature/paladium_ore.json",
           "src/main/resources/assets/paladium/models/item/paladium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/PaladiumOreBlock.java",
           "src/main/resources/assets/paladium/blockstates/paladium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/paladium_ore.json",
+          "src/main/resources/assets/paladium/models/block/paladium_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/paladium_ore.json",
           "src/main/resources/data/paladium/forge/biome_modifier/paladium_ore_biome_modifier.json",
-          "src/main/resources/data/paladium/worldgen/configured_feature/paladium_ore.json"
+          "src/main/resources/data/paladium/worldgen/placed_feature/paladium_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -78,14 +78,14 @@
       "registry_name": "findium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/block/FindiumOreBlock.java",
-          "src/main/resources/assets/paladium/models/block/findium_ore.json",
-          "src/main/resources/assets/paladium/models/item/findium_ore.json",
-          "src/main/resources/data/paladium/worldgen/placed_feature/findium_ore.json",
-          "src/main/resources/data/paladium/worldgen/configured_feature/findium_ore.json",
           "src/main/resources/assets/paladium/blockstates/findium_ore.json",
+          "src/main/resources/assets/paladium/models/item/findium_ore.json",
           "src/main/resources/data/paladium/forge/biome_modifier/findium_ore_biome_modifier.json",
-          "src/main/resources/data/paladium/loot_tables/blocks/findium_ore.json"
+          "src/main/resources/assets/paladium/models/block/findium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/findium_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/findium_ore.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/findium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/FindiumOreBlock.java"
         ]
       },
       "path": "~/Ores"
@@ -98,13 +98,13 @@
       "registry_name": "green_paladium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/item/green_paladium_ore.json",
           "src/main/resources/data/paladium/forge/biome_modifier/green_paladium_ore_biome_modifier.json",
-          "src/main/resources/data/paladium/worldgen/configured_feature/green_paladium_ore.json",
           "src/main/java/net/mcreator/paladium/block/GreenPaladiumOreBlock.java",
-          "src/main/resources/assets/paladium/models/block/green_paladium_ore.json",
+          "src/main/resources/assets/paladium/models/item/green_paladium_ore.json",
           "src/main/resources/data/paladium/loot_tables/blocks/green_paladium_ore.json",
+          "src/main/resources/data/paladium/worldgen/configured_feature/green_paladium_ore.json",
           "src/main/resources/data/paladium/worldgen/placed_feature/green_paladium_ore.json",
+          "src/main/resources/assets/paladium/models/block/green_paladium_ore.json",
           "src/main/resources/assets/paladium/blockstates/green_paladium_ore.json"
         ]
       },
@@ -118,11 +118,11 @@
       "registry_name": "endium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/block/endium_ore.json",
+          "src/main/resources/assets/paladium/blockstates/endium_ore.json",
+          "src/main/java/net/mcreator/paladium/block/EndiumOreBlock.java",
           "src/main/resources/data/paladium/loot_tables/blocks/endium_ore.json",
           "src/main/resources/assets/paladium/models/item/endium_ore.json",
-          "src/main/java/net/mcreator/paladium/block/EndiumOreBlock.java",
-          "src/main/resources/assets/paladium/blockstates/endium_ore.json"
+          "src/main/resources/assets/paladium/models/block/endium_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -135,14 +135,14 @@
       "registry_name": "trixium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/blockstates/trixium_ore.json",
-          "src/main/java/net/mcreator/paladium/block/TrixiumOreBlock.java",
-          "src/main/resources/assets/paladium/models/item/trixium_ore.json",
           "src/main/resources/data/paladium/loot_tables/blocks/trixium_ore.json",
-          "src/main/resources/data/paladium/worldgen/placed_feature/trixium_ore.json",
+          "src/main/resources/assets/paladium/models/block/trixium_ore.json",
           "src/main/resources/data/paladium/forge/biome_modifier/trixium_ore_biome_modifier.json",
           "src/main/resources/data/paladium/worldgen/configured_feature/trixium_ore.json",
-          "src/main/resources/assets/paladium/models/block/trixium_ore.json"
+          "src/main/java/net/mcreator/paladium/block/TrixiumOreBlock.java",
+          "src/main/resources/assets/paladium/models/item/trixium_ore.json",
+          "src/main/resources/data/paladium/worldgen/placed_feature/trixium_ore.json",
+          "src/main/resources/assets/paladium/blockstates/trixium_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -239,8 +239,8 @@
       "registry_name": "endium_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/EndiumNuggetItem.java",
-          "src/main/resources/assets/paladium/models/item/endium_nugget.json"
+          "src/main/resources/assets/paladium/models/item/endium_nugget.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumNuggetItem.java"
         ]
       },
       "path": "~/ingots-nugget"
@@ -253,8 +253,8 @@
       "registry_name": "endium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/EndiumIngotItem.java",
-          "src/main/resources/assets/paladium/models/item/endium_ingot.json"
+          "src/main/resources/assets/paladium/models/item/endium_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumIngotItem.java"
         ]
       },
       "path": "~/ingots-nugget"
@@ -267,8 +267,8 @@
       "registry_name": "trixium_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/TrixiumIngotItem.java",
-          "src/main/resources/assets/paladium/models/item/trixium_ingot.json"
+          "src/main/resources/assets/paladium/models/item/trixium_ingot.json",
+          "src/main/java/net/mcreator/paladium/item/TrixiumIngotItem.java"
         ]
       },
       "path": "~/ingots-nugget"
@@ -281,11 +281,11 @@
       "registry_name": "amethyst_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/block/AmethystBlockBlock.java",
-          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_block.json",
-          "src/main/resources/assets/paladium/blockstates/amethyst_block.json",
           "src/main/resources/assets/paladium/models/block/amethyst_block.json",
-          "src/main/resources/assets/paladium/models/item/amethyst_block.json"
+          "src/main/java/net/mcreator/paladium/block/AmethystBlockBlock.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/amethyst_block.json",
+          "src/main/resources/assets/paladium/blockstates/amethyst_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -298,11 +298,11 @@
       "registry_name": "titane_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/block/TitaneBlockBlock.java",
+          "src/main/resources/data/paladium/loot_tables/blocks/titane_block.json",
+          "src/main/resources/assets/paladium/models/item/titane_block.json",
           "src/main/resources/assets/paladium/models/block/titane_block.json",
           "src/main/resources/assets/paladium/blockstates/titane_block.json",
-          "src/main/resources/data/paladium/loot_tables/blocks/titane_block.json",
-          "src/main/resources/assets/paladium/models/item/titane_block.json"
+          "src/main/java/net/mcreator/paladium/block/TitaneBlockBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -315,11 +315,11 @@
       "registry_name": "paladium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/paladium/loot_tables/blocks/paladium_block.json",
           "src/main/java/net/mcreator/paladium/block/PaladiumBlockBlock.java",
-          "src/main/resources/assets/paladium/models/item/paladium_block.json",
+          "src/main/resources/assets/paladium/models/block/paladium_block.json",
           "src/main/resources/assets/paladium/blockstates/paladium_block.json",
-          "src/main/resources/assets/paladium/models/block/paladium_block.json"
+          "src/main/resources/assets/paladium/models/item/paladium_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/paladium_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -333,10 +333,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/paladium/block/FindiumBlockBlock.java",
-          "src/main/resources/assets/paladium/models/block/findium_block.json",
           "src/main/resources/data/paladium/loot_tables/blocks/findium_block.json",
           "src/main/resources/assets/paladium/blockstates/findium_block.json",
-          "src/main/resources/assets/paladium/models/item/findium_block.json"
+          "src/main/resources/assets/paladium/models/item/findium_block.json",
+          "src/main/resources/assets/paladium/models/block/findium_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -349,11 +349,11 @@
       "registry_name": "green_paladium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/item/green_paladium_block.json",
           "src/main/java/net/mcreator/paladium/block/GreenPaladiumBlockBlock.java",
-          "src/main/resources/assets/paladium/models/block/green_paladium_block.json",
+          "src/main/resources/assets/paladium/models/item/green_paladium_block.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/green_paladium_block.json",
           "src/main/resources/assets/paladium/blockstates/green_paladium_block.json",
-          "src/main/resources/data/paladium/loot_tables/blocks/green_paladium_block.json"
+          "src/main/resources/assets/paladium/models/block/green_paladium_block.json"
         ]
       },
       "path": "~/Blocks"
@@ -366,10 +366,10 @@
       "registry_name": "endium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/block/endium_block.json",
           "src/main/resources/data/paladium/loot_tables/blocks/endium_block.json",
           "src/main/resources/assets/paladium/models/item/endium_block.json",
           "src/main/resources/assets/paladium/blockstates/endium_block.json",
+          "src/main/resources/assets/paladium/models/block/endium_block.json",
           "src/main/java/net/mcreator/paladium/block/EndiumBlockBlock.java"
         ]
       },
@@ -383,11 +383,11 @@
       "registry_name": "trixium_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/paladium/models/item/trixium_block.json",
+          "src/main/resources/assets/paladium/blockstates/trixium_block.json",
           "src/main/resources/data/paladium/loot_tables/blocks/trixium_block.json",
           "src/main/resources/assets/paladium/models/block/trixium_block.json",
-          "src/main/resources/assets/paladium/models/item/trixium_block.json",
-          "src/main/java/net/mcreator/paladium/block/TrixiumBlockBlock.java",
-          "src/main/resources/assets/paladium/blockstates/trixium_block.json"
+          "src/main/java/net/mcreator/paladium/block/TrixiumBlockBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -456,8 +456,8 @@
       "registry_name": "endium_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/EndiumSwordItem.java",
-          "src/main/resources/assets/paladium/models/item/endium_sword.json"
+          "src/main/resources/assets/paladium/models/item/endium_sword.json",
+          "src/main/java/net/mcreator/paladium/item/EndiumSwordItem.java"
         ]
       },
       "path": "~/Tools"
@@ -470,10 +470,10 @@
       "registry_name": "amethyst_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/AmethystItem.java",
-          "src/main/resources/assets/paladium/models/item/amethyst_armor_chestplate.json",
-          "src/main/resources/assets/paladium/models/item/amethyst_armor_leggings.json",
           "src/main/resources/assets/paladium/models/item/amethyst_armor_helmet.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/amethyst_armor_chestplate.json",
           "src/main/resources/assets/paladium/models/item/amethyst_armor_boots.json"
         ]
       },
@@ -487,11 +487,11 @@
       "registry_name": "titane_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/TitaneArmorItem.java",
-          "src/main/resources/assets/paladium/models/item/titane_armor_helmet.json",
           "src/main/resources/assets/paladium/models/item/titane_armor_chestplate.json",
+          "src/main/resources/assets/paladium/models/item/titane_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/titane_armor_helmet.json",
           "src/main/resources/assets/paladium/models/item/titane_armor_boots.json",
-          "src/main/resources/assets/paladium/models/item/titane_armor_leggings.json"
+          "src/main/java/net/mcreator/paladium/item/TitaneArmorItem.java"
         ]
       },
       "path": "~/Armors"
@@ -507,8 +507,8 @@
           "src/main/resources/assets/paladium/models/item/paladium_armor_helmet.json",
           "src/main/resources/assets/paladium/models/item/paladium_armor_boots.json",
           "src/main/java/net/mcreator/paladium/item/PaladiumArmorItem.java",
-          "src/main/resources/assets/paladium/models/item/paladium_armor_chestplate.json",
-          "src/main/resources/assets/paladium/models/item/paladium_armor_leggings.json"
+          "src/main/resources/assets/paladium/models/item/paladium_armor_leggings.json",
+          "src/main/resources/assets/paladium/models/item/paladium_armor_chestplate.json"
         ]
       },
       "path": "~/Armors"
@@ -521,11 +521,11 @@
       "registry_name": "green_paladium_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/GreenPaladiumArmorItem.java",
-          "src/main/resources/assets/paladium/models/item/green_paladium_armor_helmet.json",
           "src/main/resources/assets/paladium/models/item/green_paladium_armor_boots.json",
-          "src/main/resources/assets/paladium/models/item/green_paladium_armor_chestplate.json",
-          "src/main/resources/assets/paladium/models/item/green_paladium_armor_leggings.json"
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_helmet.json",
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_leggings.json",
+          "src/main/java/net/mcreator/paladium/item/GreenPaladiumArmorItem.java",
+          "src/main/resources/assets/paladium/models/item/green_paladium_armor_chestplate.json"
         ]
       },
       "path": "~/Armors"
@@ -540,9 +540,9 @@
         "files": [
           "src/main/resources/assets/paladium/models/item/endium_armor_chestplate.json",
           "src/main/java/net/mcreator/paladium/item/EndiumArmorItem.java",
-          "src/main/resources/assets/paladium/models/item/endium_armor_helmet.json",
+          "src/main/resources/assets/paladium/models/item/endium_armor_boots.json",
           "src/main/resources/assets/paladium/models/item/endium_armor_leggings.json",
-          "src/main/resources/assets/paladium/models/item/endium_armor_boots.json"
+          "src/main/resources/assets/paladium/models/item/endium_armor_helmet.json"
         ]
       },
       "path": "~/Armors"
@@ -735,8 +735,8 @@
       "registry_name": "amethyst_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/item/AmethystAxeItem.java",
-          "src/main/resources/assets/paladium/models/item/amethyst_axe.json"
+          "src/main/resources/assets/paladium/models/item/amethyst_axe.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystAxeItem.java"
         ]
       },
       "path": "~/Tools"
@@ -749,8 +749,8 @@
       "registry_name": "amethyst_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/item/amethyst_pickaxe.json",
-          "src/main/java/net/mcreator/paladium/item/AmethystPickaxeItem.java"
+          "src/main/java/net/mcreator/paladium/item/AmethystPickaxeItem.java",
+          "src/main/resources/assets/paladium/models/item/amethyst_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -952,6 +952,7 @@
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.titane_shovel": "Titane Shovel",
       "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.titane_armor_helmet": "Titane Helmet",
       "item.paladium.endium_nugget": "Endium Nugget",
@@ -959,8 +960,8 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -969,7 +970,9 @@
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
       "item.paladium.endium_armor_chestplate": "Endium Chestplate",
       "item.paladium.amethyst_axe": "Amethyst Axe",
+      "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
+      "item.paladium.titane_axe": "Titane Axe",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
       "item.paladium.amethyst_hammer": "Amethyst Hammer",
@@ -1008,15 +1011,15 @@
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
