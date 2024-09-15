@@ -73,7 +73,5 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.TITANE_PICKAXE.get());
 				tabData.accept(PaladiumModItems.TITANE_AXE.get());
 				tabData.accept(PaladiumModItems.TITANE_SHOVEL.get());
-			})
-
-					.build());
+			}).withSearchBar().build());
 }
