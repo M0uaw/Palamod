@@ -94,9 +94,10 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> AMETHYST_PICKAXE = REGISTRY.register("amethyst_pickaxe", () -> new AmethystPickaxeItem());
 	public static final RegistryObject<Item> AMETHYST_SHOVEL = REGISTRY.register("amethyst_shovel", () -> new AmethystShovelItem());
 	public static final RegistryObject<Item> AMETHYST_HAMMER = REGISTRY.register("amethyst_hammer", () -> new AmethystHammerItem());
-	public static final RegistryObject<Item> TITANE_PICKAXE = REGISTRY.register("titane_pickaxe", () -> new TitanePickaxeItem());
 	public static final RegistryObject<Item> TITANE_AXE = REGISTRY.register("titane_axe", () -> new TitaneAxeItem());
+	public static final RegistryObject<Item> TITANE_PICKAXE = REGISTRY.register("titane_pickaxe", () -> new TitanePickaxeItem());
 	public static final RegistryObject<Item> TITANE_SHOVEL = REGISTRY.register("titane_shovel", () -> new TitaneShovelItem());
+	public static final RegistryObject<Item> PALADIUM_LUCKY_BLOCK = block(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items

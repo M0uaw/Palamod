@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.paladium.init.PaladiumModTabs;
+import net.mcreator.paladium.init.PaladiumModMenus;
 import net.mcreator.paladium.init.PaladiumModItems;
 import net.mcreator.paladium.init.PaladiumModBlocks;
 
@@ -47,6 +48,7 @@ public class PaladiumMod {
 
 		PaladiumModTabs.REGISTRY.register(bus);
 
+		PaladiumModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
