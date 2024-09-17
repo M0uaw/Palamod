@@ -17,11 +17,11 @@
         "value": "CUSTOM:Paladium"
       }
     ],
-    "efficiency": 6.0,
+    "efficiency": 8.0,
     "attackSpeed": 1.2,
     "enchantability": 10,
     "damageVsEntity": 8.5,
-    "usageCount": 1999,
+    "usageCount": 2999,
     "glowCondition": {
       "fixedValue": false
     },

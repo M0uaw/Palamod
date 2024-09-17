@@ -1,13 +1,19 @@
 
 package net.mcreator.paladium.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.paladium.init.PaladiumModItems;
 
 public class TitanePickaxeItem extends PickaxeItem {
 	public TitanePickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1999;
+				return 2999;
 			}
 
 			public float getSpeed() {
@@ -15,7 +21,7 @@ public class TitanePickaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 3f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
