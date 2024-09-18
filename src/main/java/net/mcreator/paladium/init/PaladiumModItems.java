@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.paladium.item.TrixiumItem;
 import net.mcreator.paladium.item.TitaneSwordItem;
+import net.mcreator.paladium.item.TitaneStickItem;
 import net.mcreator.paladium.item.TitaneShovelItem;
 import net.mcreator.paladium.item.TitanePickaxeItem;
 import net.mcreator.paladium.item.TitaneIngotItem;
@@ -21,6 +22,7 @@ import net.mcreator.paladium.item.TitaneHammerItem;
 import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.PaladiumSwordItem;
+import net.mcreator.paladium.item.PaladiumStickItem;
 import net.mcreator.paladium.item.PaladiumShovelItem;
 import net.mcreator.paladium.item.PaladiumPickaxeItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
@@ -42,6 +44,7 @@ import net.mcreator.paladium.item.EndiumFragmentItem;
 import net.mcreator.paladium.item.EndiumAxeItem;
 import net.mcreator.paladium.item.EndiumArmorItem;
 import net.mcreator.paladium.item.AmethystSwordItem;
+import net.mcreator.paladium.item.AmethystStickItem;
 import net.mcreator.paladium.item.AmethystShovelItem;
 import net.mcreator.paladium.item.AmethystPickaxeItem;
 import net.mcreator.paladium.item.AmethystItem;
@@ -118,6 +121,9 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> GREEN_PALADIUM_SHOVEL = REGISTRY.register("green_paladium_shovel", () -> new GreenPaladiumShovelItem());
 	public static final RegistryObject<Item> ENDIUM_PICKAXE = REGISTRY.register("endium_pickaxe", () -> new EndiumPickaxeItem());
 	public static final RegistryObject<Item> ENDIUM_AXE = REGISTRY.register("endium_axe", () -> new EndiumAxeItem());
+	public static final RegistryObject<Item> AMETHYST_STICK = REGISTRY.register("amethyst_stick", () -> new AmethystStickItem());
+	public static final RegistryObject<Item> TITANE_STICK = REGISTRY.register("titane_stick", () -> new TitaneStickItem());
+	public static final RegistryObject<Item> PALADIUM_STICK = REGISTRY.register("paladium_stick", () -> new PaladiumStickItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
