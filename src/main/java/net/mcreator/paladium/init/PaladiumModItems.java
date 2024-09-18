@@ -28,13 +28,18 @@ import net.mcreator.paladium.item.PaladiumHammerItem;
 import net.mcreator.paladium.item.PaladiumAxeItem;
 import net.mcreator.paladium.item.PaladiumArmorItem;
 import net.mcreator.paladium.item.GreenPaladiumSwordItem;
+import net.mcreator.paladium.item.GreenPaladiumShovelItem;
+import net.mcreator.paladium.item.GreenPaladiumPickaxeItem;
 import net.mcreator.paladium.item.GreenPaladiumIngotItem;
+import net.mcreator.paladium.item.GreenPaladiumAxeItem;
 import net.mcreator.paladium.item.GreenPaladiumArmorItem;
 import net.mcreator.paladium.item.FindiumItem;
 import net.mcreator.paladium.item.EndiumSwordItem;
+import net.mcreator.paladium.item.EndiumPickaxeItem;
 import net.mcreator.paladium.item.EndiumNuggetItem;
 import net.mcreator.paladium.item.EndiumIngotItem;
 import net.mcreator.paladium.item.EndiumFragmentItem;
+import net.mcreator.paladium.item.EndiumAxeItem;
 import net.mcreator.paladium.item.EndiumArmorItem;
 import net.mcreator.paladium.item.AmethystSwordItem;
 import net.mcreator.paladium.item.AmethystShovelItem;
@@ -108,6 +113,11 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> PALADIUM_HAMMER = REGISTRY.register("paladium_hammer", () -> new PaladiumHammerItem());
 	public static final RegistryObject<Item> TRIXIUM = REGISTRY.register("trixium", () -> new TrixiumItem());
 	public static final RegistryObject<Item> FINDIUM = REGISTRY.register("findium", () -> new FindiumItem());
+	public static final RegistryObject<Item> GREEN_PALADIUM_PICKAXE = REGISTRY.register("green_paladium_pickaxe", () -> new GreenPaladiumPickaxeItem());
+	public static final RegistryObject<Item> GREEN_PALADIUM_AXE = REGISTRY.register("green_paladium_axe", () -> new GreenPaladiumAxeItem());
+	public static final RegistryObject<Item> GREEN_PALADIUM_SHOVEL = REGISTRY.register("green_paladium_shovel", () -> new GreenPaladiumShovelItem());
+	public static final RegistryObject<Item> ENDIUM_PICKAXE = REGISTRY.register("endium_pickaxe", () -> new EndiumPickaxeItem());
+	public static final RegistryObject<Item> ENDIUM_AXE = REGISTRY.register("endium_axe", () -> new EndiumAxeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

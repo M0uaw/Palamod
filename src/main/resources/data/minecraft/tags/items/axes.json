@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "paladium:endium_axe",
+    "paladium:green_paladium_axe",
     "paladium:paladium_axe",
     "paladium:titane_axe",
     "paladium:amethyst_axe"

@@ -3,6 +3,7 @@
   "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
   "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
   "item.paladium.paladium_armor_boots": "Paladium Boots",
+  "item.paladium.green_paladium_pickaxe": "Green Paladium Pickaxe",
   "item.paladium.amethyst_sword": "Amethyst Sword",
   "gui.paladium.paladium_lucky_block_gui.button_lancer": "LANCER",
   "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
@@ -19,6 +20,7 @@
   "item.paladium.paladium_ingot": "Paladium Ingot",
   "item.paladium.titane_ingot": "Titane Ingot",
   "block.paladium.findium_block": "Findium Block",
+  "item.paladium.endium_pickaxe": "Endium Pickaxe",
   "item.paladium.endium_sword": "Endium Sword",
   "item.paladium.endium_armor_boots": "Endium Boots",
   "block.paladium.green_paladium_ore": "Green Paladium Ore",
@@ -28,6 +30,7 @@
   "item.paladium.titane_pickaxe": "Titane Pickaxe",
   "block.paladium.titane_block": "Titane Block",
   "item.paladium.titane_axe": "Titane Axe",
+  "item.paladium.green_paladium_axe": "Green Paladium Axe",
   "block.paladium.trixium_ore": "Trixium Ore",
   "item.paladium.paladium_armor_helmet": "Paladium Helmet",
   "item.paladium.amethyst_hammer": "Amethyst Hammer",
@@ -40,6 +43,7 @@
   "item.paladium.trixium": "Trixium",
   "block.paladium.paladium_ore": "Paladium Ore",
   "item.paladium.titane_armor_leggings": "Titane Leggings",
+  "item.paladium.green_paladium_shovel": "Green Paladium Shovel",
   "item.paladium.green_paladium_armor_helmet": "Green Paladium Helmet",
   "item.paladium.titane_sword": "Titane Sword",
   "block.paladium.paladium_block": "Paladium Block",
@@ -61,5 +65,6 @@
   "item.paladium.endium_ingot": "Endium Ingot",
   "item.paladium.titane_armor_boots": "Titane Boots",
   "item.paladium.paladium_armor_leggings": "Paladium Leggings",
+  "item.paladium.endium_axe": "Endium Axe",
   "block.paladium.green_paladium_block": "Green Paladium Block"
 }
