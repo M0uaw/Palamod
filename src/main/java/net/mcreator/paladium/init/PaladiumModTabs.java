@@ -74,5 +74,10 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.TITANE_PICKAXE.get());
 				tabData.accept(PaladiumModItems.TITANE_SHOVEL.get());
 				tabData.accept(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK.get().asItem());
+				tabData.accept(PaladiumModItems.TITANE_HAMMER.get());
+				tabData.accept(PaladiumModItems.PALADIUM_PICKAXE.get());
+				tabData.accept(PaladiumModItems.PALADIUM_AXE.get());
+				tabData.accept(PaladiumModItems.PALADIUM_SHOVEL.get());
+				tabData.accept(PaladiumModItems.PALADIUM_HAMMER.get());
 			}).withSearchBar().build());
 }

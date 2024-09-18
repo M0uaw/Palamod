@@ -17,10 +17,15 @@ import net.mcreator.paladium.item.TitaneSwordItem;
 import net.mcreator.paladium.item.TitaneShovelItem;
 import net.mcreator.paladium.item.TitanePickaxeItem;
 import net.mcreator.paladium.item.TitaneIngotItem;
+import net.mcreator.paladium.item.TitaneHammerItem;
 import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.PaladiumSwordItem;
+import net.mcreator.paladium.item.PaladiumShovelItem;
+import net.mcreator.paladium.item.PaladiumPickaxeItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
+import net.mcreator.paladium.item.PaladiumHammerItem;
+import net.mcreator.paladium.item.PaladiumAxeItem;
 import net.mcreator.paladium.item.PaladiumArmorItem;
 import net.mcreator.paladium.item.GreenPaladiumSwordItem;
 import net.mcreator.paladium.item.GreenPaladiumIngotItem;
@@ -98,6 +103,11 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> TITANE_PICKAXE = REGISTRY.register("titane_pickaxe", () -> new TitanePickaxeItem());
 	public static final RegistryObject<Item> TITANE_SHOVEL = REGISTRY.register("titane_shovel", () -> new TitaneShovelItem());
 	public static final RegistryObject<Item> PALADIUM_LUCKY_BLOCK = block(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK);
+	public static final RegistryObject<Item> TITANE_HAMMER = REGISTRY.register("titane_hammer", () -> new TitaneHammerItem());
+	public static final RegistryObject<Item> PALADIUM_PICKAXE = REGISTRY.register("paladium_pickaxe", () -> new PaladiumPickaxeItem());
+	public static final RegistryObject<Item> PALADIUM_AXE = REGISTRY.register("paladium_axe", () -> new PaladiumAxeItem());
+	public static final RegistryObject<Item> PALADIUM_SHOVEL = REGISTRY.register("paladium_shovel", () -> new PaladiumShovelItem());
+	public static final RegistryObject<Item> PALADIUM_HAMMER = REGISTRY.register("paladium_hammer", () -> new PaladiumHammerItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

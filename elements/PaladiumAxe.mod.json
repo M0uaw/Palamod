@@ -2,13 +2,13 @@
   "_fv": 66,
   "_type": "tool",
   "definition": {
-    "toolType": "Pickaxe",
+    "toolType": "Axe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "amethyst",
+    "texture": "paladium_axe",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Amethyst Hammer",
+    "name": "Paladium Axe",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,26 +17,23 @@
         "value": "CUSTOM:Paladium"
       }
     ],
-    "efficiency": 4.0,
-    "attackSpeed": 3.0,
-    "enchantability": 15,
-    "damageVsEntity": 4.0,
-    "usageCount": 1999,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2,
+    "enchantability": 10,
+    "damageVsEntity": 11.5,
+    "usageCount": 4999,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:AmethystIngot"
+        "value": "CUSTOM:PaladiumIngot"
       }
     ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onBlockDestroyedWithTool": {
-      "name": "HammerBlockDestroyedWithTool"
-    }
+    "damageOnCrafting": false
   }
 }

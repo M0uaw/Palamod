@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "paladium:paladium_shovel",
     "paladium:titane_shovel",
     "paladium:amethyst_shovel"
   ]

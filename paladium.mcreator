@@ -892,6 +892,76 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "TitaneHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/TitaneHammerItem.java",
+          "src/main/resources/assets/paladium/models/item/titane_hammer.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "PaladiumPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_pickaxe.json",
+          "src/main/java/net/mcreator/paladium/item/PaladiumPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "PaladiumAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/PaladiumAxeItem.java",
+          "src/main/resources/assets/paladium/models/item/paladium_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "PaladiumShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_shovel.json",
+          "src/main/java/net/mcreator/paladium/item/PaladiumShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "PaladiumHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/PaladiumHammerItem.java",
+          "src/main/resources/assets/paladium/models/item/paladium_hammer.json"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -949,11 +1019,15 @@
       "Blocks.JIGSAW"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:PaladiumHammer",
+      "~CUSTOM:PaladiumPickaxe",
+      "~CUSTOM:TitaneHammer",
       "~CUSTOM:TitanePickaxe",
       "~CUSTOM:AmethystHammer",
       "~CUSTOM:AmethystPickaxe"
     ],
     "ITEMS:minecraft:axes": [
+      "~CUSTOM:PaladiumAxe",
       "~CUSTOM:TitaneAxe",
       "~CUSTOM:AmethystAxe"
     ],
@@ -965,6 +1039,7 @@
       "~CUSTOM:AmethystSword"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:PaladiumShovel",
       "~CUSTOM:TitaneShovel",
       "~CUSTOM:AmethystShovel"
     ],
@@ -982,16 +1057,17 @@
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.amethyst_sword": "Amethyst Sword",
+      "item.paladium.paladium_hammer": "Paladium Hammer",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -999,6 +1075,7 @@
       "item.paladium.endium_armor_boots": "Endium Boots",
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
       "item.paladium.endium_armor_chestplate": "Endium Chestplate",
+      "item.paladium.paladium_pickaxe": "Paladium Pickaxe",
       "item.paladium.amethyst_axe": "Amethyst Axe",
       "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
@@ -1010,6 +1087,7 @@
       "item.paladium.amethyst_shovel": "Amethyst Shovel",
       "item.paladium.green_paladium_armor_leggings": "Green Paladium Leggings",
       "item.paladium.trixium_ingot": "Trixium Ingot",
+      "item.paladium.paladium_shovel": "Paladium Shovel",
       "item.paladium.paladium_sword": "Paladium Sword",
       "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
       "block.paladium.paladium_ore": "Paladium Ore",
@@ -1020,7 +1098,9 @@
       "block.paladium.amethyst_block": "Amethyst Block",
       "block.paladium.trixium_block": "Trixium Block",
       "item.paladium.paladium_armor_chestplate": "Paladium Chestplate",
+      "item.paladium.titane_hammer": "Titane Hammer",
       "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.paladium.paladium_axe": "Paladium Axe",
       "block.paladium.endium_block": "Endium Block",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
       "item.paladium.endium_armor_helmet": "Endium Helmet",
@@ -1042,16 +1122,17 @@
       "item.paladium.amethyst_sword": "Épée en Améthyste",
       "gui.paladium.paladium_lucky_block_gui.button_lancer": "LANCER",
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
+      "item.paladium.paladium_hammer": "Paladium Hammer",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "block.paladium.endium_ore": "Minerai d\u0027Endium",
-      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
       "item.paladium.amethyst_armor_boots": "Bottes en Améthyste",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
+      "block.paladium.endium_ore": "Minerai d\u0027Endium",
       "item.paladium.green_paladium_armor_boots": "Bottes en Paladium Vert",
       "item.paladium.amethyst_ingot": "Lingot d\u0027Améthyste",
       "block.paladium.findium_ore": "Minerai de Findium ",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Minerai de Titane",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Bloc de Findium",
       "item.paladium.findium_ingot": "Findium",
@@ -1059,6 +1140,7 @@
       "item.paladium.endium_armor_boots": "Bottes en Endium",
       "block.paladium.green_paladium_ore": "Minerai de Paladium Vert",
       "item.paladium.endium_armor_chestplate": "Plastron en Endium",
+      "item.paladium.paladium_pickaxe": "Paladium Pickaxe",
       "item.paladium.amethyst_axe": "Hache en Améthyste",
       "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Bloc de Titane",
@@ -1070,6 +1152,7 @@
       "item.paladium.amethyst_shovel": "Pelle en Améthyste",
       "item.paladium.green_paladium_armor_leggings": "Jambières en Paladium Vert",
       "item.paladium.trixium_ingot": "Trixium Ingot",
+      "item.paladium.paladium_shovel": "Paladium Shovel",
       "item.paladium.paladium_sword": "Paladium Sword",
       "item.paladium.green_paladium_ingot": "Lingot de Paladium Vert",
       "block.paladium.paladium_ore": "Minerai de Paladium",
@@ -1080,7 +1163,9 @@
       "block.paladium.amethyst_block": "Bloc d\u0027Améthyste",
       "block.paladium.trixium_block": "Bloc de Trixium",
       "item.paladium.paladium_armor_chestplate": "Paladium Chestplate",
+      "item.paladium.titane_hammer": "Titane Hammer",
       "item.paladium.amethyst_armor_chestplate": "Plastron en Améthyste",
+      "item.paladium.paladium_axe": "Paladium Axe",
       "block.paladium.endium_block": "Bloc d\u0027Endium",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
       "item.paladium.endium_armor_helmet": "Casque en Endium",
