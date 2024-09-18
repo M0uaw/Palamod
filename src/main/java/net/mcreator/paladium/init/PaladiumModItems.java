@@ -12,7 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.paladium.item.TrixiumIngotItem;
+import net.mcreator.paladium.item.TrixiumItem;
 import net.mcreator.paladium.item.TitaneSwordItem;
 import net.mcreator.paladium.item.TitaneShovelItem;
 import net.mcreator.paladium.item.TitanePickaxeItem;
@@ -30,7 +30,7 @@ import net.mcreator.paladium.item.PaladiumArmorItem;
 import net.mcreator.paladium.item.GreenPaladiumSwordItem;
 import net.mcreator.paladium.item.GreenPaladiumIngotItem;
 import net.mcreator.paladium.item.GreenPaladiumArmorItem;
-import net.mcreator.paladium.item.FindiumIngotItem;
+import net.mcreator.paladium.item.FindiumItem;
 import net.mcreator.paladium.item.EndiumSwordItem;
 import net.mcreator.paladium.item.EndiumNuggetItem;
 import net.mcreator.paladium.item.EndiumIngotItem;
@@ -57,12 +57,10 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> AMETHYST_INGOT = REGISTRY.register("amethyst_ingot", () -> new AmethystIngotItem());
 	public static final RegistryObject<Item> TITANE_INGOT = REGISTRY.register("titane_ingot", () -> new TitaneIngotItem());
 	public static final RegistryObject<Item> PALADIUM_INGOT = REGISTRY.register("paladium_ingot", () -> new PaladiumIngotItem());
-	public static final RegistryObject<Item> FINDIUM_INGOT = REGISTRY.register("findium_ingot", () -> new FindiumIngotItem());
 	public static final RegistryObject<Item> GREEN_PALADIUM_INGOT = REGISTRY.register("green_paladium_ingot", () -> new GreenPaladiumIngotItem());
 	public static final RegistryObject<Item> ENDIUM_FRAGMENT = REGISTRY.register("endium_fragment", () -> new EndiumFragmentItem());
 	public static final RegistryObject<Item> ENDIUM_NUGGET = REGISTRY.register("endium_nugget", () -> new EndiumNuggetItem());
 	public static final RegistryObject<Item> ENDIUM_INGOT = REGISTRY.register("endium_ingot", () -> new EndiumIngotItem());
-	public static final RegistryObject<Item> TRIXIUM_INGOT = REGISTRY.register("trixium_ingot", () -> new TrixiumIngotItem());
 	public static final RegistryObject<Item> AMETHYST_BLOCK = block(PaladiumModBlocks.AMETHYST_BLOCK);
 	public static final RegistryObject<Item> TITANE_BLOCK = block(PaladiumModBlocks.TITANE_BLOCK);
 	public static final RegistryObject<Item> PALADIUM_BLOCK = block(PaladiumModBlocks.PALADIUM_BLOCK);
@@ -108,6 +106,8 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> PALADIUM_AXE = REGISTRY.register("paladium_axe", () -> new PaladiumAxeItem());
 	public static final RegistryObject<Item> PALADIUM_SHOVEL = REGISTRY.register("paladium_shovel", () -> new PaladiumShovelItem());
 	public static final RegistryObject<Item> PALADIUM_HAMMER = REGISTRY.register("paladium_hammer", () -> new PaladiumHammerItem());
+	public static final RegistryObject<Item> TRIXIUM = REGISTRY.register("trixium", () -> new TrixiumItem());
+	public static final RegistryObject<Item> FINDIUM = REGISTRY.register("findium", () -> new FindiumItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

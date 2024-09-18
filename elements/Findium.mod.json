@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "trixium",
+    "texture": "findium",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Trixium Ingot",
+    "name": "Findium",
     "rarity": "COMMON",
     "creativeTabs": [
       {

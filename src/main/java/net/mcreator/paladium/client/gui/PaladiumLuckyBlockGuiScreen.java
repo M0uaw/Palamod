@@ -1,13 +1,25 @@
 package net.mcreator.paladium.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.paladium.world.inventory.PaladiumLuckyBlockGuiMenu;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<PaladiumLuckyBlockGuiMenu> {
-
 	private final static HashMap<String, Object> guistate = PaladiumLuckyBlockGuiMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	Button button_lancer;
 
 	public PaladiumLuckyBlockGuiScreen(PaladiumLuckyBlockGuiMenu container, Inventory inventory, Component text) {
@@ -26,11 +38,8 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -38,7 +47,6 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/image.png"), this.leftPos + -122, this.topPos + -69, 0, 0, 112, 83, 112, 83);
@@ -52,7 +60,6 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -63,13 +70,9 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	@Override
 	public void init() {
 		super.init();
-
 		button_lancer = Button.builder(Component.translatable("gui.paladium.paladium_lucky_block_gui.button_lancer"), e -> {
 		}).bounds(this.leftPos + 56, this.topPos + 130, 56, 20).build();
-
 		guistate.put("button:button_lancer", button_lancer);
 		this.addRenderableWidget(button_lancer);
-
 	}
-
 }

@@ -28,12 +28,10 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.AMETHYST_INGOT.get());
 				tabData.accept(PaladiumModItems.TITANE_INGOT.get());
 				tabData.accept(PaladiumModItems.PALADIUM_INGOT.get());
-				tabData.accept(PaladiumModItems.FINDIUM_INGOT.get());
 				tabData.accept(PaladiumModItems.GREEN_PALADIUM_INGOT.get());
 				tabData.accept(PaladiumModItems.ENDIUM_FRAGMENT.get());
 				tabData.accept(PaladiumModItems.ENDIUM_NUGGET.get());
 				tabData.accept(PaladiumModItems.ENDIUM_INGOT.get());
-				tabData.accept(PaladiumModItems.TRIXIUM_INGOT.get());
 				tabData.accept(PaladiumModBlocks.AMETHYST_BLOCK.get().asItem());
 				tabData.accept(PaladiumModBlocks.TITANE_BLOCK.get().asItem());
 				tabData.accept(PaladiumModBlocks.PALADIUM_BLOCK.get().asItem());
@@ -79,5 +77,7 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.PALADIUM_AXE.get());
 				tabData.accept(PaladiumModItems.PALADIUM_SHOVEL.get());
 				tabData.accept(PaladiumModItems.PALADIUM_HAMMER.get());
+				tabData.accept(PaladiumModItems.TRIXIUM.get());
+				tabData.accept(PaladiumModItems.FINDIUM.get());
 			}).withSearchBar().build());
 }
