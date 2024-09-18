@@ -19,6 +19,7 @@ import net.mcreator.paladium.item.TitaneShovelItem;
 import net.mcreator.paladium.item.TitanePickaxeItem;
 import net.mcreator.paladium.item.TitaneIngotItem;
 import net.mcreator.paladium.item.TitaneHammerItem;
+import net.mcreator.paladium.item.TitaneExcavatorItem;
 import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.PaladiumSwordItem;
@@ -27,6 +28,7 @@ import net.mcreator.paladium.item.PaladiumShovelItem;
 import net.mcreator.paladium.item.PaladiumPickaxeItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
 import net.mcreator.paladium.item.PaladiumHammerItem;
+import net.mcreator.paladium.item.PaladiumExcavatorItem;
 import net.mcreator.paladium.item.PaladiumAxeItem;
 import net.mcreator.paladium.item.PaladiumArmorItem;
 import net.mcreator.paladium.item.GreenPaladiumSwordItem;
@@ -50,6 +52,7 @@ import net.mcreator.paladium.item.AmethystPickaxeItem;
 import net.mcreator.paladium.item.AmethystItem;
 import net.mcreator.paladium.item.AmethystIngotItem;
 import net.mcreator.paladium.item.AmethystHammerItem;
+import net.mcreator.paladium.item.AmethystExcavatorItem;
 import net.mcreator.paladium.item.AmethystAxeItem;
 import net.mcreator.paladium.PaladiumMod;
 
@@ -124,6 +127,9 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> AMETHYST_STICK = REGISTRY.register("amethyst_stick", () -> new AmethystStickItem());
 	public static final RegistryObject<Item> TITANE_STICK = REGISTRY.register("titane_stick", () -> new TitaneStickItem());
 	public static final RegistryObject<Item> PALADIUM_STICK = REGISTRY.register("paladium_stick", () -> new PaladiumStickItem());
+	public static final RegistryObject<Item> AMETHYST_EXCAVATOR = REGISTRY.register("amethyst_excavator", () -> new AmethystExcavatorItem());
+	public static final RegistryObject<Item> TITANE_EXCAVATOR = REGISTRY.register("titane_excavator", () -> new TitaneExcavatorItem());
+	public static final RegistryObject<Item> PALADIUM_EXCAVATOR = REGISTRY.register("paladium_excavator", () -> new PaladiumExcavatorItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

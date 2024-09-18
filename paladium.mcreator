@@ -1071,6 +1071,86 @@
           "src/main/resources/assets/paladium/models/item/paladium_stick.json"
         ]
       }
+    },
+    {
+      "name": "AmethystExcavator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_excavator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/amethyst_excavator.json",
+          "src/main/java/net/mcreator/paladium/item/AmethystExcavatorItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "ExcavatorBlockDestroyedWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excavator_block_destroyed_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/ExcavatorBlockDestroyedWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TitaneExcavator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_excavator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/item/TitaneExcavatorItem.java",
+          "src/main/resources/assets/paladium/models/item/titane_excavator.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "PaladiumExcavator",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_excavator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/paladium_excavator.json",
+          "src/main/java/net/mcreator/paladium/item/PaladiumExcavatorItem.java"
+        ]
+      },
+      "path": "~/Tools"
     }
   ],
   "variable_elements": [],
@@ -1159,6 +1239,9 @@
       "~CUSTOM:AmethystSword"
     ],
     "ITEMS:minecraft:shovels": [
+      "~CUSTOM:PaladiumExcavator",
+      "~CUSTOM:TitaneExcavator",
+      "~CUSTOM:AmethystExcavator",
       "~CUSTOM:GreenPaladiumShovel",
       "~CUSTOM:PaladiumShovel",
       "~CUSTOM:TitaneShovel",
@@ -1205,16 +1288,19 @@
       "AmethystPickaxe",
       "AmethystShovel",
       "AmethystHammer",
+      "AmethystExcavator",
       "TitaneSword",
       "TitaneAxe",
       "TitanePickaxe",
       "TitaneShovel",
       "TitaneHammer",
+      "TitaneExcavator",
       "PaladiumSword",
       "PaladiumPickaxe",
       "PaladiumAxe",
       "PaladiumShovel",
       "PaladiumHammer",
+      "PaladiumExcavator",
       "GreenPaladiumSword",
       "GreenPaladiumPickaxe",
       "GreenPaladiumAxe",
@@ -1252,6 +1338,7 @@
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.endium_pickaxe": "Endium Pickaxe",
+      "item.paladium.amethyst_excavator": "Amethyst Excavator",
       "item.paladium.endium_sword": "Endium Sword",
       "item.paladium.endium_armor_boots": "Endium Boots",
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
@@ -1294,6 +1381,8 @@
       "item.paladium.endium_fragment": "Endium Fragment",
       "item.paladium.endium_armor_leggings": "Endium Leggings",
       "item.paladium.titane_armor_chestplate": "Titane Chestplate",
+      "item.paladium.paladium_excavator": "Paladium Excavator",
+      "item.paladium.titane_excavator": "Titane Excavator",
       "item_group.paladium.paladium": "Palamod",
       "item.paladium.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.paladium.endium_ingot": "Endium Ingot",
@@ -1304,8 +1393,8 @@
     },
     "fr_fr": {
       "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
+      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.paladium_armor_boots": "Bottes en Paladium",
       "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
       "item.paladium.amethyst_sword": "Épée en Améthyste",
@@ -1325,6 +1414,7 @@
       "item.paladium.titane_ingot": "Lingot de Titane",
       "block.paladium.findium_block": "Bloc de Findium",
       "item.paladium.endium_pickaxe": "Pioche en Endium",
+      "item.paladium.amethyst_excavator": "Excavatrice en Améthyste",
       "item.paladium.endium_sword": "Épée en Endium",
       "item.paladium.endium_armor_boots": "Bottes en Endium",
       "block.paladium.green_paladium_ore": "Minerai de Paladium Vert",
@@ -1367,6 +1457,8 @@
       "item.paladium.endium_fragment": "Fragment d\u0027Endium",
       "item.paladium.endium_armor_leggings": "Jambières en Endium",
       "item.paladium.titane_armor_chestplate": "Plastron en Titane",
+      "item.paladium.paladium_excavator": "Excavatrice en Paladium",
+      "item.paladium.titane_excavator": "Excavatrice en Titane",
       "item_group.paladium.paladium": "Palamod",
       "item.paladium.amethyst_pickaxe": "Pioche en Améthyste",
       "item.paladium.endium_ingot": "Lingot d\u0027Endium",
