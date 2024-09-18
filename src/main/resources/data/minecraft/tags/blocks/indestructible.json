@@ -13,6 +13,11 @@
     "minecraft:barrier",
     "minecraft:structure_void",
     "minecraft:structure_block",
-    "minecraft:jigsaw"
+    "minecraft:jigsaw",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:lava",
+    "minecraft:end_gateway",
+    "minecraft:spawner"
   ]
 }
