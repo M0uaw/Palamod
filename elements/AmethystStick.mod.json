@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "findium",
+    "texture": "amethyst_stick",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Findium Ingot",
+    "name": "Amethyst Stick",
     "rarity": "COMMON",
     "creativeTabs": [
       {

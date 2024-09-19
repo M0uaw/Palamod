@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "paladium:paladium_excavator",
+    "paladium:titane_excavator",
+    "paladium:paladium_shovel",
+    "paladium:amethyst_excavator",
+    "paladium:titane_shovel",
+    "paladium:green_paladium_shovel",
     "paladium:amethyst_shovel"
   ]
 }

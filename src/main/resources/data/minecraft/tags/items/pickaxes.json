@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "paladium:paladium_pickaxe",
+    "paladium:titane_hammer",
+    "paladium:green_paladium_pickaxe",
+    "paladium:paladium_hammer",
+    "paladium:titane_pickaxe",
+    "paladium:endium_pickaxe",
     "paladium:amethyst_hammer",
     "paladium:amethyst_pickaxe"
   ]

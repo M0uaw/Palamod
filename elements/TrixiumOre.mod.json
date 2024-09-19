@@ -48,7 +48,7 @@
     ],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Trixium"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

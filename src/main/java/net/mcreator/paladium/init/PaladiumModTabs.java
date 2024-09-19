@@ -28,12 +28,10 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.AMETHYST_INGOT.get());
 				tabData.accept(PaladiumModItems.TITANE_INGOT.get());
 				tabData.accept(PaladiumModItems.PALADIUM_INGOT.get());
-				tabData.accept(PaladiumModItems.FINDIUM_INGOT.get());
 				tabData.accept(PaladiumModItems.GREEN_PALADIUM_INGOT.get());
 				tabData.accept(PaladiumModItems.ENDIUM_FRAGMENT.get());
 				tabData.accept(PaladiumModItems.ENDIUM_NUGGET.get());
 				tabData.accept(PaladiumModItems.ENDIUM_INGOT.get());
-				tabData.accept(PaladiumModItems.TRIXIUM_INGOT.get());
 				tabData.accept(PaladiumModBlocks.AMETHYST_BLOCK.get().asItem());
 				tabData.accept(PaladiumModBlocks.TITANE_BLOCK.get().asItem());
 				tabData.accept(PaladiumModBlocks.PALADIUM_BLOCK.get().asItem());
@@ -71,7 +69,26 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.AMETHYST_SHOVEL.get());
 				tabData.accept(PaladiumModItems.AMETHYST_HAMMER.get());
 				tabData.accept(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK.get().asItem());
-			})
-
-					.build());
+				tabData.accept(PaladiumModItems.ENDIUM_PICKAXE.get());
+				tabData.accept(PaladiumModItems.GREEN_PALADIUM_AXE.get());
+				tabData.accept(PaladiumModItems.PALADIUM_STICK.get());
+				tabData.accept(PaladiumModItems.TITANE_PICKAXE.get());
+				tabData.accept(PaladiumModItems.TRIXIUM.get());
+				tabData.accept(PaladiumModItems.GREEN_PALADIUM_SHOVEL.get());
+				tabData.accept(PaladiumModItems.AMETHYST_STICK.get());
+				tabData.accept(PaladiumModItems.PALADIUM_HAMMER.get());
+				tabData.accept(PaladiumModItems.TITANE_SHOVEL.get());
+				tabData.accept(PaladiumModItems.TITANE_AXE.get());
+				tabData.accept(PaladiumModItems.PALADIUM_AXE.get());
+				tabData.accept(PaladiumModItems.AMETHYST_EXCAVATOR.get());
+				tabData.accept(PaladiumModItems.GREEN_PALADIUM_PICKAXE.get());
+				tabData.accept(PaladiumModItems.TITANE_HAMMER.get());
+				tabData.accept(PaladiumModItems.PALADIUM_SHOVEL.get());
+				tabData.accept(PaladiumModItems.FINDIUM.get());
+				tabData.accept(PaladiumModItems.ENDIUM_AXE.get());
+				tabData.accept(PaladiumModItems.TITANE_STICK.get());
+				tabData.accept(PaladiumModItems.PALADIUM_PICKAXE.get());
+				tabData.accept(PaladiumModItems.TITANE_EXCAVATOR.get());
+				tabData.accept(PaladiumModItems.PALADIUM_EXCAVATOR.get());
+			}).withSearchBar().build());
 }
