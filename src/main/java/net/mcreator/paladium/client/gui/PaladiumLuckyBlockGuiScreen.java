@@ -1,13 +1,25 @@
 package net.mcreator.paladium.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.GuiGraphics;
+
+import net.mcreator.paladium.world.inventory.PaladiumLuckyBlockGuiMenu;
+
+import java.util.HashMap;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<PaladiumLuckyBlockGuiMenu> {
-
 	private final static HashMap<String, Object> guistate = PaladiumLuckyBlockGuiMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	ImageButton imagebutton_lancer;
 
 	public PaladiumLuckyBlockGuiScreen(PaladiumLuckyBlockGuiMenu container, Inventory inventory, Component text) {
@@ -26,11 +38,8 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -38,9 +47,7 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -50,7 +57,6 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -61,13 +67,9 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	@Override
 	public void init() {
 		super.init();
-
 		imagebutton_lancer = new ImageButton(this.leftPos + -304, this.topPos + -361, 768, 567, 0, 0, 567, new ResourceLocation("paladium:textures/screens/atlas/imagebutton_lancer.png"), 768, 1134, e -> {
 		});
-
 		guistate.put("button:imagebutton_lancer", imagebutton_lancer);
 		this.addRenderableWidget(imagebutton_lancer);
-
 	}
-
 }

@@ -796,7 +796,7 @@
     {
       "name": "PaladiumLuckyBlock",
       "type": "block",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_lucky_block",
       "metadata": {
@@ -813,7 +813,7 @@
     {
       "name": "PaladiumLuckyBlockGui",
       "type": "gui",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_lucky_block_gui",
       "metadata": {
@@ -826,7 +826,7 @@
     {
       "name": "Wiki",
       "type": "command",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "wiki",
       "metadata": {
@@ -838,7 +838,7 @@
     {
       "name": "EndiumPickaxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endium_pickaxe",
       "metadata": {
@@ -852,7 +852,7 @@
     {
       "name": "GreenPaladiumAxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_paladium_axe",
       "metadata": {
@@ -866,7 +866,7 @@
     {
       "name": "PaladiumStick",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_stick",
       "metadata": {
@@ -879,7 +879,7 @@
     {
       "name": "TitanePickaxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_pickaxe",
       "metadata": {
@@ -893,7 +893,7 @@
     {
       "name": "Trixium",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "trixium",
       "metadata": {
@@ -907,7 +907,7 @@
     {
       "name": "GreenPaladiumShovel",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_paladium_shovel",
       "metadata": {
@@ -921,7 +921,7 @@
     {
       "name": "AmethystStick",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amethyst_stick",
       "metadata": {
@@ -934,7 +934,7 @@
     {
       "name": "PaladiumHammer",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_hammer",
       "metadata": {
@@ -948,7 +948,7 @@
     {
       "name": "TitaneShovel",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_shovel",
       "metadata": {
@@ -962,7 +962,7 @@
     {
       "name": "TitaneAxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_axe",
       "metadata": {
@@ -976,7 +976,7 @@
     {
       "name": "PaladiumAxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_axe",
       "metadata": {
@@ -990,7 +990,7 @@
     {
       "name": "AmethystExcavator",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "amethyst_excavator",
       "metadata": {
@@ -1004,7 +1004,7 @@
     {
       "name": "GreenPaladiumPickaxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "green_paladium_pickaxe",
       "metadata": {
@@ -1018,7 +1018,7 @@
     {
       "name": "TitaneHammer",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_hammer",
       "metadata": {
@@ -1032,7 +1032,7 @@
     {
       "name": "PaladiumShovel",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_shovel",
       "metadata": {
@@ -1046,7 +1046,7 @@
     {
       "name": "Findium",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "findium",
       "metadata": {
@@ -1060,7 +1060,7 @@
     {
       "name": "EndiumAxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "endium_axe",
       "metadata": {
@@ -1074,7 +1074,7 @@
     {
       "name": "TitaneStick",
       "type": "item",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_stick",
       "metadata": {
@@ -1087,7 +1087,7 @@
     {
       "name": "ExcavatorBlockDestroyedWithTool",
       "type": "procedure",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "excavator_block_destroyed_with_tool",
       "metadata": {
@@ -1125,7 +1125,7 @@
     {
       "name": "PaladiumPickaxe",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_pickaxe",
       "metadata": {
@@ -1139,7 +1139,7 @@
     {
       "name": "TitaneExcavator",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "titane_excavator",
       "metadata": {
@@ -1153,7 +1153,7 @@
     {
       "name": "PaladiumExcavator",
       "type": "tool",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "paladium_excavator",
       "metadata": {
@@ -1163,6 +1163,24 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "CommandWiki",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "command_wiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/CommandWikiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1265,9 +1283,12 @@
       "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
+      "item.paladium.green_paladium_pickaxe": "Green Paladium Pickaxe",
       "item.paladium.amethyst_sword": "Amethyst Sword",
       "gui.paladium.paladium_lucky_block_gui.button_lancer": "LANCER",
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
+      "item.paladium.paladium_hammer": "Paladium Hammer",
+      "item.paladium.titane_shovel": "Titane Shovel",
       "block.paladium.endium_ore": "Endium Ore",
       "item.paladium.endium_nugget": "Endium Nugget",
       "item.paladium.titane_armor_helmet": "Titane Helmet",
@@ -1275,50 +1296,67 @@
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "item.paladium.paladium_ingot": "Paladium Ingot",
       "block.paladium.titane_ore": "Titane Ore",
+      "item.paladium.paladium_ingot": "Paladium Ingot",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
+      "item.paladium.endium_pickaxe": "Endium Pickaxe",
+      "item.paladium.amethyst_excavator": "Amethyst Excavator",
       "item.paladium.endium_sword": "Endium Sword",
       "item.paladium.endium_armor_boots": "Endium Boots",
       "block.paladium.green_paladium_ore": "Green Paladium Ore",
       "item.paladium.endium_armor_chestplate": "Endium Chestplate",
+      "item.paladium.paladium_pickaxe": "Paladium Pickaxe",
       "item.paladium.amethyst_axe": "Amethyst Axe",
+      "item.paladium.paladium_stick": "Paladium Stick",
+      "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
+      "item.paladium.green_paladium_axe": "Green Paladium Axe",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
       "item.paladium.amethyst_hammer": "Amethyst Hammer",
       "block.paladium.amethyst_ore": "Amethyst Ore",
       "item.paladium.amethyst_shovel": "Amethyst Shovel",
       "item.paladium.green_paladium_armor_leggings": "Green Paladium Leggings",
+      "item.paladium.paladium_shovel": "Paladium Shovel",
+      "item.paladium.titane_stick": "Titane Stick",
       "item.paladium.paladium_sword": "Paladium Sword",
       "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
+      "item.paladium.trixium": "Trixium",
       "block.paladium.paladium_ore": "Paladium Ore",
       "item.paladium.titane_armor_leggings": "Titane Leggings",
+      "item.paladium.green_paladium_shovel": "Green Paladium Shovel",
       "item.paladium.green_paladium_armor_helmet": "Green Paladium Helmet",
       "item.paladium.titane_sword": "Titane Sword",
       "block.paladium.paladium_block": "Paladium Block",
       "block.paladium.amethyst_block": "Amethyst Block",
       "block.paladium.trixium_block": "Trixium Block",
       "item.paladium.paladium_armor_chestplate": "Paladium Chestplate",
+      "item.paladium.titane_hammer": "Titane Hammer",
       "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.paladium.amethyst_stick": "Amethyst Stick",
+      "item.paladium.findium": "Findium",
+      "item.paladium.paladium_axe": "Paladium Axe",
       "block.paladium.endium_block": "Endium Block",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
       "item.paladium.endium_armor_helmet": "Endium Helmet",
       "item.paladium.endium_fragment": "Endium Fragment",
       "item.paladium.endium_armor_leggings": "Endium Leggings",
       "item.paladium.titane_armor_chestplate": "Titane Chestplate",
+      "item.paladium.paladium_excavator": "Paladium Excavator",
+      "item.paladium.titane_excavator": "Titane Excavator",
       "item_group.paladium.paladium": "Palamod",
       "item.paladium.amethyst_pickaxe": "Amethyst Pickaxe",
       "item.paladium.endium_ingot": "Endium Ingot",
       "item.paladium.titane_armor_boots": "Titane Boots",
       "item.paladium.paladium_armor_leggings": "Paladium Leggings",
+      "item.paladium.endium_axe": "Endium Axe",
       "block.paladium.green_paladium_block": "Green Paladium Block"
     },
     "fr_fr": {
       "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
+      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
       "item.paladium.amethyst_sword": "Épée en Améthyste",

@@ -1,7 +1,13 @@
 
 package net.mcreator.paladium.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.AxeItem;
+
+import net.mcreator.paladium.init.PaladiumModItems;
 
 public class GreenPaladiumAxeItem extends AxeItem {
 	public GreenPaladiumAxeItem() {
