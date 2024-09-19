@@ -6,7 +6,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
-import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.paladium.world.inventory.PaladiumLuckyBlockGuiMenu;
@@ -20,7 +20,7 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	Button button_lancer;
+	ImageButton imagebutton_lancer;
 
 	public PaladiumLuckyBlockGuiScreen(PaladiumLuckyBlockGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -48,9 +48,6 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/image.png"), this.leftPos + -122, this.topPos + -69, 0, 0, 384, 283, 384, 283);
-
 		RenderSystem.disableBlend();
 	}
 
@@ -70,9 +67,9 @@ public class PaladiumLuckyBlockGuiScreen extends AbstractContainerScreen<Paladiu
 	@Override
 	public void init() {
 		super.init();
-		button_lancer = Button.builder(Component.translatable("gui.paladium.paladium_lucky_block_gui.button_lancer"), e -> {
-		}).bounds(this.leftPos + 56, this.topPos + 130, 56, 20).build();
-		guistate.put("button:button_lancer", button_lancer);
-		this.addRenderableWidget(button_lancer);
+		imagebutton_lancer = new ImageButton(this.leftPos + -304, this.topPos + -361, 768, 567, 0, 0, 567, new ResourceLocation("paladium:textures/screens/atlas/imagebutton_lancer.png"), 768, 1134, e -> {
+		});
+		guistate.put("button:imagebutton_lancer", imagebutton_lancer);
+		this.addRenderableWidget(imagebutton_lancer);
 	}
 }

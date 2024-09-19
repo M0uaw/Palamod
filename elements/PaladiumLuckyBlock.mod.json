@@ -106,7 +106,7 @@
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "PaladiumLuckyBlockGui",
-    "openGUIOnRightClick": false,
+    "openGUIOnRightClick": true,
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,

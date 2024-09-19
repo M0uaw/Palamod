@@ -11,24 +11,13 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "button",
+        "type": "imagebutton",
         "data": {
-          "name": "button_lancer",
-          "text": "LANCER",
-          "isUndecorated": false,
-          "width": 56,
-          "height": 20,
-          "x": 182,
-          "y": 167
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "image.png",
-          "use1Xscale": true,
-          "x": 4,
-          "y": -32
+          "name": "imagebutton_lancer",
+          "image": "lancer.png",
+          "hoveredImage": "",
+          "x": -178,
+          "y": -324
         }
       }
     ],

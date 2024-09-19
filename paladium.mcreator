@@ -850,6 +850,18 @@
           "src/main/java/net/mcreator/paladium/client/gui/PaladiumLuckyBlockGuiScreen.java"
         ]
       }
+    },
+    {
+      "name": "Wiki",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/command/WikiCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -939,15 +951,15 @@
       "item.paladium.amethyst_sword": "Amethyst Sword",
       "gui.paladium.paladium_lucky_block_gui.button_lancer": "LANCER",
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
-      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Findium Block",
       "item.paladium.findium_ingot": "Findium Ingot",
@@ -996,15 +1008,15 @@
       "item.paladium.amethyst_sword": "Épée en Améthyste",
       "gui.paladium.paladium_lucky_block_gui.button_lancer": "LANCER",
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
-      "item.paladium.amethyst_armor_boots": "Bottes en Améthyste",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
       "block.paladium.endium_ore": "Minerai d\u0027Endium",
+      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Bottes en Améthyste",
       "item.paladium.green_paladium_armor_boots": "Bottes en Paladium Vert",
       "item.paladium.amethyst_ingot": "Lingot d\u0027Améthyste",
       "block.paladium.findium_ore": "Minerai de Findium ",
-      "block.paladium.titane_ore": "Minerai de Titane",
       "item.paladium.paladium_ingot": "Paladium Ingot",
+      "block.paladium.titane_ore": "Minerai de Titane",
       "item.paladium.titane_ingot": "Titane Ingot",
       "block.paladium.findium_block": "Bloc de Findium",
       "item.paladium.findium_ingot": "Findium",
