@@ -1280,8 +1280,8 @@
   "language_map": {
     "en_us": {
       "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
-      "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
       "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
+      "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Green Paladium Pickaxe",
       "item.paladium.amethyst_sword": "Amethyst Sword",
@@ -1289,10 +1289,10 @@
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
       "item.paladium.paladium_hammer": "Paladium Hammer",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "block.paladium.endium_ore": "Endium Ore",
-      "item.paladium.endium_nugget": "Endium Nugget",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
       "item.paladium.amethyst_armor_boots": "Amethyst Boots",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "block.paladium.endium_ore": "Endium Ore",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
@@ -1355,8 +1355,8 @@
     },
     "fr_fr": {
       "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-      "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
       "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
+      "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
       "item.paladium.amethyst_sword": "Épée en Améthyste",
