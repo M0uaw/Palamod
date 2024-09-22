@@ -21,6 +21,7 @@ import net.mcreator.paladium.init.PaladiumModTabs;
 import net.mcreator.paladium.init.PaladiumModMenus;
 import net.mcreator.paladium.init.PaladiumModItems;
 import net.mcreator.paladium.init.PaladiumModBlocks;
+import net.mcreator.paladium.init.PaladiumModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -43,7 +44,7 @@ public class PaladiumMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		PaladiumModBlocks.REGISTRY.register(bus);
-
+		PaladiumModBlockEntities.REGISTRY.register(bus);
 		PaladiumModItems.REGISTRY.register(bus);
 
 		PaladiumModTabs.REGISTRY.register(bus);

@@ -91,5 +91,6 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.TITANE_EXCAVATOR.get());
 				tabData.accept(PaladiumModItems.PALADIUM_EXCAVATOR.get());
 				tabData.accept(PaladiumModItems.FURNACE_UPGRADE.get());
+				tabData.accept(PaladiumModBlocks.PALADIUM_FURNACE.get().asItem());
 			}).withSearchBar().build());
 }

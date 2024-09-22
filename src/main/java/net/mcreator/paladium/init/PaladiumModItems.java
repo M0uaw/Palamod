@@ -132,6 +132,7 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> TITANE_EXCAVATOR = REGISTRY.register("titane_excavator", () -> new TitaneExcavatorItem());
 	public static final RegistryObject<Item> PALADIUM_EXCAVATOR = REGISTRY.register("paladium_excavator", () -> new PaladiumExcavatorItem());
 	public static final RegistryObject<Item> FURNACE_UPGRADE = REGISTRY.register("furnace_upgrade", () -> new FurnaceUpgradeItem());
+	public static final RegistryObject<Item> PALADIUM_FURNACE = block(PaladiumModBlocks.PALADIUM_FURNACE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

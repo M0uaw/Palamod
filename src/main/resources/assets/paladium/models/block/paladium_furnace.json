@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/paladium_furnace_side",
+    "up": "paladium:block/paladium_furnace_side",
+    "north": "paladium:block/paladium_furnace_front_off",
+    "east": "paladium:block/paladium_furnace_side",
+    "south": "paladium:block/paladium_furnace_side",
+    "west": "paladium:block/paladium_furnace_side",
+    "particle": "paladium:block/paladium_furnace_side"
+  },
+  "render_type": "solid"
+}

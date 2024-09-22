@@ -796,7 +796,7 @@
     {
       "name": "PaladiumLuckyBlock",
       "type": "block",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_lucky_block",
       "metadata": {
@@ -813,7 +813,7 @@
     {
       "name": "PaladiumLuckyBlockGui",
       "type": "gui",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_lucky_block_gui",
       "metadata": {
@@ -826,7 +826,7 @@
     {
       "name": "Wiki",
       "type": "command",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "wiki",
       "metadata": {
@@ -838,7 +838,7 @@
     {
       "name": "EndiumPickaxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "endium_pickaxe",
       "metadata": {
@@ -852,7 +852,7 @@
     {
       "name": "GreenPaladiumAxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "green_paladium_axe",
       "metadata": {
@@ -866,7 +866,7 @@
     {
       "name": "PaladiumStick",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_stick",
       "metadata": {
@@ -879,7 +879,7 @@
     {
       "name": "TitanePickaxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_pickaxe",
       "metadata": {
@@ -893,7 +893,7 @@
     {
       "name": "Trixium",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "trixium",
       "metadata": {
@@ -907,7 +907,7 @@
     {
       "name": "GreenPaladiumShovel",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "green_paladium_shovel",
       "metadata": {
@@ -921,7 +921,7 @@
     {
       "name": "AmethystStick",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_stick",
       "metadata": {
@@ -934,7 +934,7 @@
     {
       "name": "PaladiumHammer",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_hammer",
       "metadata": {
@@ -948,7 +948,7 @@
     {
       "name": "TitaneShovel",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_shovel",
       "metadata": {
@@ -976,7 +976,7 @@
     {
       "name": "PaladiumAxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_axe",
       "metadata": {
@@ -990,7 +990,7 @@
     {
       "name": "AmethystExcavator",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_excavator",
       "metadata": {
@@ -1004,7 +1004,7 @@
     {
       "name": "GreenPaladiumPickaxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "green_paladium_pickaxe",
       "metadata": {
@@ -1018,7 +1018,7 @@
     {
       "name": "TitaneHammer",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_hammer",
       "metadata": {
@@ -1032,7 +1032,7 @@
     {
       "name": "PaladiumShovel",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_shovel",
       "metadata": {
@@ -1046,7 +1046,7 @@
     {
       "name": "Findium",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "findium",
       "metadata": {
@@ -1060,7 +1060,7 @@
     {
       "name": "EndiumAxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "endium_axe",
       "metadata": {
@@ -1074,7 +1074,7 @@
     {
       "name": "TitaneStick",
       "type": "item",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_stick",
       "metadata": {
@@ -1125,7 +1125,7 @@
     {
       "name": "PaladiumPickaxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_pickaxe",
       "metadata": {
@@ -1139,7 +1139,7 @@
     {
       "name": "TitaneExcavator",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_excavator",
       "metadata": {
@@ -1153,7 +1153,7 @@
     {
       "name": "PaladiumExcavator",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "paladium_excavator",
       "metadata": {
@@ -1192,6 +1192,23 @@
         "files": [
           "src/main/resources/assets/paladium/models/item/furnace_upgrade.json",
           "src/main/java/net/mcreator/paladium/item/FurnaceUpgradeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PaladiumFurnace",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/loot_tables/blocks/paladium_furnace.json",
+          "src/main/resources/assets/paladium/models/block/paladium_furnace.json",
+          "src/main/java/net/mcreator/paladium/block/PaladiumFurnaceBlock.java",
+          "src/main/resources/assets/paladium/models/item/paladium_furnace.json",
+          "src/main/java/net/mcreator/paladium/block/entity/PaladiumFurnaceBlockEntity.java",
+          "src/main/resources/assets/paladium/blockstates/paladium_furnace.json"
         ]
       }
     }
@@ -1293,8 +1310,8 @@
   "language_map": {
     "en_us": {
       "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
-      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Green Paladium Pickaxe",
       "item.paladium.amethyst_sword": "Amethyst Sword",
@@ -1302,10 +1319,10 @@
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
       "item.paladium.paladium_hammer": "Paladium Hammer",
       "item.paladium.titane_shovel": "Titane Shovel",
-      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
-      "item.paladium.titane_armor_helmet": "Titane Helmet",
-      "item.paladium.endium_nugget": "Endium Nugget",
       "block.paladium.endium_ore": "Endium Ore",
+      "item.paladium.endium_nugget": "Endium Nugget",
+      "item.paladium.titane_armor_helmet": "Titane Helmet",
+      "item.paladium.amethyst_armor_boots": "Amethyst Boots",
       "item.paladium.green_paladium_armor_boots": "Green Paladium Boots",
       "item.paladium.amethyst_ingot": "Amethyst Ingot",
       "block.paladium.findium_ore": "Findium Ore",
@@ -1334,6 +1351,7 @@
       "item.paladium.paladium_shovel": "Paladium Shovel",
       "item.paladium.titane_stick": "Titane Stick",
       "item.paladium.paladium_sword": "Paladium Sword",
+      "block.paladium.paladium_furnace": "Paladium Furnace",
       "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
       "item.paladium.trixium": "Trixium",
       "block.paladium.paladium_ore": "Paladium Ore",
@@ -1413,6 +1431,7 @@
       "item.paladium.paladium_shovel": "Pelle en Paladium",
       "item.paladium.titane_stick": "Bâton en Titane",
       "item.paladium.paladium_sword": "Paladium Sword",
+      "block.paladium.paladium_furnace": "Fourneau en Paladium",
       "item.paladium.green_paladium_ingot": "Lingot de Paladium Vert",
       "item.paladium.trixium": "Trixium",
       "block.paladium.paladium_ore": "Minerai de Paladium",
@@ -1428,7 +1447,7 @@
       "item.paladium.amethyst_armor_chestplate": "Plastron en Améthyste",
       "item.paladium.findium": "Findium",
       "item.paladium.amethyst_stick": "Bâton en Améthyste",
-      "item.paladium.furnace_upgrade": "Furnace Upgrade",
+      "item.paladium.furnace_upgrade": "Amélioration de Fourneau",
       "item.paladium.paladium_axe": "Hache en Paladium",
       "block.paladium.endium_block": "Bloc d\u0027Endium",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
