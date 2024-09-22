@@ -1211,6 +1211,19 @@
           "src/main/resources/assets/paladium/blockstates/paladium_furnace.json"
         ]
       }
+    },
+    {
+      "name": "SmeltingItemsInPF",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelting_items_in_pf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/SmeltingItemsInPFProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
