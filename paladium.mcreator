@@ -1181,16 +1181,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "FurnaceUpgrade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_upgrade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/furnace_upgrade.json",
+          "src/main/java/net/mcreator/paladium/item/FurnaceUpgradeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:forge:air": [
-      "Blocks.AIR",
-      "Blocks.VOID_AIR",
-      "Blocks.CAVE_AIR"
-    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:TrixiumBlock",
       "~CUSTOM:EndiumBlock",
@@ -1207,16 +1215,6 @@
       "~CUSTOM:TitaneOre",
       "~CUSTOM:AmethystOre"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:PaladiumPickaxe",
-      "~CUSTOM:TitaneHammer",
-      "~CUSTOM:GreenPaladiumPickaxe",
-      "~CUSTOM:PaladiumHammer",
-      "~CUSTOM:TitanePickaxe",
-      "~CUSTOM:EndiumPickaxe",
-      "~CUSTOM:AmethystHammer",
-      "~CUSTOM:AmethystPickaxe"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TrixiumBlock",
       "~CUSTOM:EndiumBlock",
@@ -1232,13 +1230,6 @@
       "~CUSTOM:PaladiumOre",
       "~CUSTOM:TitaneOre",
       "~CUSTOM:AmethystOre"
-    ],
-    "ITEMS:minecraft:axes": [
-      "~CUSTOM:EndiumAxe",
-      "~CUSTOM:PaladiumAxe",
-      "~CUSTOM:TitaneAxe",
-      "~CUSTOM:GreenPaladiumAxe",
-      "~CUSTOM:AmethystAxe"
     ],
     "BLOCKS:minecraft:indestructible": [
       "Blocks.BEDROCK",
@@ -1259,6 +1250,23 @@
       "Blocks.STRUCTURE_BLOCK#4",
       "Blocks.JIGSAW"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:PaladiumPickaxe",
+      "~CUSTOM:TitaneHammer",
+      "~CUSTOM:GreenPaladiumPickaxe",
+      "~CUSTOM:PaladiumHammer",
+      "~CUSTOM:TitanePickaxe",
+      "~CUSTOM:EndiumPickaxe",
+      "~CUSTOM:AmethystHammer",
+      "~CUSTOM:AmethystPickaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:EndiumAxe",
+      "~CUSTOM:PaladiumAxe",
+      "~CUSTOM:TitaneAxe",
+      "~CUSTOM:GreenPaladiumAxe",
+      "~CUSTOM:AmethystAxe"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:EndiumSword",
       "~CUSTOM:GreenPaladiumSword",
@@ -1274,6 +1282,11 @@
       "~CUSTOM:TitaneShovel",
       "~CUSTOM:GreenPaladiumShovel",
       "~CUSTOM:AmethystShovel"
+    ],
+    "BLOCKS:forge:air": [
+      "Blocks.AIR",
+      "Blocks.VOID_AIR",
+      "Blocks.CAVE_AIR"
     ]
   },
   "tab_element_order": {},
@@ -1336,6 +1349,7 @@
       "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.paladium.amethyst_stick": "Amethyst Stick",
       "item.paladium.findium": "Findium",
+      "item.paladium.furnace_upgrade": "Furnace Upgrade",
       "item.paladium.paladium_axe": "Paladium Axe",
       "block.paladium.endium_block": "Endium Block",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
@@ -1414,6 +1428,7 @@
       "item.paladium.amethyst_armor_chestplate": "Plastron en Améthyste",
       "item.paladium.findium": "Findium",
       "item.paladium.amethyst_stick": "Bâton en Améthyste",
+      "item.paladium.furnace_upgrade": "Furnace Upgrade",
       "item.paladium.paladium_axe": "Hache en Paladium",
       "block.paladium.endium_block": "Bloc d\u0027Endium",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",

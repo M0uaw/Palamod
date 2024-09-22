@@ -37,6 +37,7 @@ import net.mcreator.paladium.item.GreenPaladiumPickaxeItem;
 import net.mcreator.paladium.item.GreenPaladiumIngotItem;
 import net.mcreator.paladium.item.GreenPaladiumAxeItem;
 import net.mcreator.paladium.item.GreenPaladiumArmorItem;
+import net.mcreator.paladium.item.FurnaceUpgradeItem;
 import net.mcreator.paladium.item.FindiumItem;
 import net.mcreator.paladium.item.EndiumSwordItem;
 import net.mcreator.paladium.item.EndiumPickaxeItem;
@@ -130,6 +131,7 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> PALADIUM_PICKAXE = REGISTRY.register("paladium_pickaxe", () -> new PaladiumPickaxeItem());
 	public static final RegistryObject<Item> TITANE_EXCAVATOR = REGISTRY.register("titane_excavator", () -> new TitaneExcavatorItem());
 	public static final RegistryObject<Item> PALADIUM_EXCAVATOR = REGISTRY.register("paladium_excavator", () -> new PaladiumExcavatorItem());
+	public static final RegistryObject<Item> FURNACE_UPGRADE = REGISTRY.register("furnace_upgrade", () -> new FurnaceUpgradeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
