@@ -1,7 +1,7 @@
 {
   "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-  "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
   "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
+  "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
   "item.paladium.paladium_armor_boots": "Paladium Boots",
   "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
   "item.paladium.amethyst_sword": "Épée en Améthyste",
@@ -43,6 +43,7 @@
   "item.paladium.trixium_ingot": "Trixium Ingot",
   "item.paladium.paladium_shovel": "Pelle en Paladium",
   "item.paladium.titane_stick": "Bâton en Titane",
+  "gui.paladium.paladium_furnace_gui.label_paladium_furnace": "Fourneau en Paladium",
   "item.paladium.paladium_sword": "Paladium Sword",
   "block.paladium.paladium_furnace": "Fourneau en Paladium",
   "item.paladium.green_paladium_ingot": "Lingot de Paladium Vert",

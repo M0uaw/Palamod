@@ -75,6 +75,50 @@ public class PaladiumFurnaceGuiScreen extends AbstractContainerScreen<PaladiumFu
 
 		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_12.png"), this.leftPos + 57, this.topPos + 48, 0, 0, 14, 1, 14, 1);
 
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 1, 16, 1, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_1.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 2, 16, 2, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_2.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 3, 16, 3, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_3.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 4, 16, 4, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_4.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 5, 16, 5, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_5.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 6, 16, 6, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_6.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 7, 16, 7, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_7.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 8, 16, 8, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_8.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 9, 16, 9, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_9.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 10, 16, 10, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_10.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 11, 16, 11, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_11.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 12, 16, 12, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_12.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 13, 16, 13, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_13.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 14, 16, 14, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_14.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 15, 16, 15, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_15.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 16, 16, 16, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_16.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 17, 16, 17, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_17.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 18, 16, 18, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_18.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 19, 16, 19, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_19.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 20, 16, 20, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_20.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 21, 16, 21, 16);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow_21.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 22, 16, 22, 16);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -89,6 +133,7 @@ public class PaladiumFurnaceGuiScreen extends AbstractContainerScreen<PaladiumFu
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.paladium.paladium_furnace_gui.label_paladium_furnace"), 44, 4, -12829636, false);
 	}
 
 	@Override

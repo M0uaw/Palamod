@@ -1224,6 +1224,44 @@
           "src/main/java/net/mcreator/paladium/client/gui/PaladiumFurnaceGuiScreen.java"
         ]
       }
+    },
+    {
+      "name": "PaladiumFurnaceOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paladium_furnace_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/PaladiumFurnaceOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1426,6 +1464,7 @@
       "item.paladium.green_paladium_armor_leggings": "Green Paladium Leggings",
       "item.paladium.paladium_shovel": "Paladium Shovel",
       "item.paladium.titane_stick": "Titane Stick",
+      "gui.paladium.paladium_furnace_gui.label_paladium_furnace": "Paladium Furnace",
       "item.paladium.paladium_sword": "Paladium Sword",
       "block.paladium.paladium_furnace": "Paladium Furnace",
       "item.paladium.green_paladium_ingot": "Green Paladium Ingot",
@@ -1463,8 +1502,8 @@
     },
     "fr_fr": {
       "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-      "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
       "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
+      "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
       "item.paladium.amethyst_sword": "Épée en Améthyste",
@@ -1506,6 +1545,7 @@
       "item.paladium.trixium_ingot": "Trixium Ingot",
       "item.paladium.paladium_shovel": "Pelle en Paladium",
       "item.paladium.titane_stick": "Bâton en Titane",
+      "gui.paladium.paladium_furnace_gui.label_paladium_furnace": "Fourneau en Paladium",
       "item.paladium.paladium_sword": "Paladium Sword",
       "block.paladium.paladium_furnace": "Fourneau en Paladium",
       "item.paladium.green_paladium_ingot": "Lingot de Paladium Vert",
