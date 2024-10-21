@@ -47,7 +47,33 @@ public class PaladiumFurnaceGuiScreen extends AbstractContainerScreen<PaladiumFu
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/paladium_furnace_gui.png"), this.leftPos + 1, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/paladium_furnace_1.png"), this.leftPos + 1, this.topPos + -1, 0, 0, 176, 166, 176, 166);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire.png"), this.leftPos + 57, this.topPos + 36, 0, 0, 14, 13, 14, 13);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_1.png"), this.leftPos + 57, this.topPos + 37, 0, 0, 14, 12, 14, 12);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_2.png"), this.leftPos + 57, this.topPos + 38, 0, 0, 14, 11, 14, 11);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_3.png"), this.leftPos + 57, this.topPos + 39, 0, 0, 14, 10, 14, 10);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_4.png"), this.leftPos + 57, this.topPos + 40, 0, 0, 14, 9, 14, 9);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_5.png"), this.leftPos + 57, this.topPos + 41, 0, 0, 14, 8, 14, 8);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_6.png"), this.leftPos + 57, this.topPos + 42, 0, 0, 14, 7, 14, 7);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_7.png"), this.leftPos + 57, this.topPos + 43, 0, 0, 14, 6, 14, 6);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_8.png"), this.leftPos + 57, this.topPos + 44, 0, 0, 14, 5, 14, 5);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_9.png"), this.leftPos + 57, this.topPos + 45, 0, 0, 14, 4, 14, 4);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_10.png"), this.leftPos + 57, this.topPos + 46, 0, 0, 14, 3, 14, 3);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_11.png"), this.leftPos + 57, this.topPos + 47, 0, 0, 14, 2, 14, 2);
+
+		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_12.png"), this.leftPos + 57, this.topPos + 48, 0, 0, 14, 1, 14, 1);
 
 		RenderSystem.disableBlend();
 	}
