@@ -962,13 +962,13 @@
     {
       "name": "TitaneAxe",
       "type": "tool",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "titane_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/paladium/models/item/titane_axe.json",
-          "src/main/java/net/mcreator/paladium/item/TitaneAxeItem.java"
+          "src/main/java/net/mcreator/paladium/item/TitaneAxeItem.java",
+          "src/main/resources/assets/paladium/models/item/titane_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -1087,7 +1087,7 @@
     {
       "name": "ExcavatorBlockDestroyedWithTool",
       "type": "procedure",
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "excavator_block_destroyed_with_tool",
       "metadata": {
@@ -1213,16 +1213,16 @@
       }
     },
     {
-      "name": "SmeltingItemsInPF",
-      "type": "procedure",
+      "name": "PaladiumFurnaceGui",
+      "type": "gui",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "smelting_items_in_pf",
+      "registry_name": "paladium_furnace_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/paladium/procedures/SmeltingItemsInPFProcedure.java"
-        ],
-        "dependencies": []
+          "src/main/java/net/mcreator/paladium/world/inventory/PaladiumFurnaceGuiMenu.java",
+          "src/main/java/net/mcreator/paladium/client/gui/PaladiumFurnaceGuiScreen.java"
+        ]
       }
     }
   ],
@@ -1319,7 +1319,69 @@
       "Blocks.CAVE_AIR"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:Paladium": [
+      "AmethystOre",
+      "TitaneOre",
+      "PaladiumOre",
+      "FindiumOre",
+      "GreenPaladiumOre",
+      "EndiumOre",
+      "TrixiumOre",
+      "AmethystBlock",
+      "TitaneBlock",
+      "PaladiumBlock",
+      "GreenPaladiumBlock",
+      "EndiumBlock",
+      "FindiumBlock",
+      "TrixiumBlock",
+      "AmethystIngot",
+      "TitaneIngot",
+      "PaladiumIngot",
+      "GreenPaladiumIngot",
+      "EndiumIngot",
+      "EndiumNugget",
+      "EndiumFragment",
+      "Findium",
+      "Trixium",
+      "AmethystStick",
+      "TitaneStick",
+      "PaladiumStick",
+      "Amethyst",
+      "TitaneArmor",
+      "PaladiumArmor",
+      "GreenPaladiumArmor",
+      "EndiumArmor",
+      "AmethystSword",
+      "AmethystAxe",
+      "AmethystPickaxe",
+      "AmethystShovel",
+      "TitaneSword",
+      "TitanePickaxe",
+      "TitaneAxe",
+      "TitaneShovel",
+      "PaladiumSword",
+      "PaladiumPickaxe",
+      "PaladiumAxe",
+      "PaladiumShovel",
+      "GreenPaladiumSword",
+      "GreenPaladiumPickaxe",
+      "GreenPaladiumAxe",
+      "GreenPaladiumShovel",
+      "EndiumSword",
+      "EndiumPickaxe",
+      "EndiumAxe",
+      "AmethystHammer",
+      "TitaneHammer",
+      "PaladiumHammer",
+      "AmethystExcavator",
+      "TitaneExcavator",
+      "PaladiumExcavator",
+      "PaladiumFurnace",
+      "FurnaceUpgrade",
+      "PaladiumLuckyBlock"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
@@ -1355,6 +1417,7 @@
       "item.paladium.titane_pickaxe": "Titane Pickaxe",
       "block.paladium.titane_block": "Titane Block",
       "item.paladium.green_paladium_axe": "Green Paladium Axe",
+      "item.paladium.titane_axe": "Titane Axe",
       "block.paladium.trixium_ore": "Trixium Ore",
       "item.paladium.paladium_armor_helmet": "Paladium Helmet",
       "item.paladium.amethyst_hammer": "Amethyst Hammer",
@@ -1508,7 +1571,8 @@
     "modid": "paladium",
     "modName": "Paladium",
     "version": "1.0.0",
-    "author": "scrat, MCreator",
+    "description": "A Paladium fan mod",
+    "author": "Mouaw, Toni_4819, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "serverSideOnly": false,

@@ -12,9 +12,11 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import net.mcreator.paladium.world.inventory.PaladiumLuckyBlockGuiMenu;
+import net.mcreator.paladium.world.inventory.PaladiumFurnaceGuiMenu;
 import net.mcreator.paladium.PaladiumMod;
 
 public class PaladiumModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, PaladiumMod.MODID);
 	public static final RegistryObject<MenuType<PaladiumLuckyBlockGuiMenu>> PALADIUM_LUCKY_BLOCK_GUI = REGISTRY.register("paladium_lucky_block_gui", () -> IForgeMenuType.create(PaladiumLuckyBlockGuiMenu::new));
+	public static final RegistryObject<MenuType<PaladiumFurnaceGuiMenu>> PALADIUM_FURNACE_GUI = REGISTRY.register("paladium_furnace_gui", () -> IForgeMenuType.create(PaladiumFurnaceGuiMenu::new));
 }

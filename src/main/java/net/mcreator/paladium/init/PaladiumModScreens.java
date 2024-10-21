@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.mcreator.paladium.client.gui.PaladiumLuckyBlockGuiScreen;
+import net.mcreator.paladium.client.gui.PaladiumFurnaceGuiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class PaladiumModScreens {
@@ -19,6 +20,7 @@ public class PaladiumModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(PaladiumModMenus.PALADIUM_LUCKY_BLOCK_GUI.get(), PaladiumLuckyBlockGuiScreen::new);
+			MenuScreens.register(PaladiumModMenus.PALADIUM_FURNACE_GUI.get(), PaladiumFurnaceGuiScreen::new);
 		});
 	}
 }
