@@ -9,6 +9,19 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.paladium.world.inventory.PaladiumFurnaceGuiMenu;
+import net.mcreator.paladium.procedures.FireTestProcedure;
+import net.mcreator.paladium.procedures.FireTest9Procedure;
+import net.mcreator.paladium.procedures.FireTest8Procedure;
+import net.mcreator.paladium.procedures.FireTest7Procedure;
+import net.mcreator.paladium.procedures.FireTest6Procedure;
+import net.mcreator.paladium.procedures.FireTest5Procedure;
+import net.mcreator.paladium.procedures.FireTest4Procedure;
+import net.mcreator.paladium.procedures.FireTest3Procedure;
+import net.mcreator.paladium.procedures.FireTest2Procedure;
+import net.mcreator.paladium.procedures.FireTest1Procedure;
+import net.mcreator.paladium.procedures.FireTest12Procedure;
+import net.mcreator.paladium.procedures.FireTest11Procedure;
+import net.mcreator.paladium.procedures.FireTest10Procedure;
 
 import java.util.HashMap;
 
@@ -49,31 +62,45 @@ public class PaladiumFurnaceGuiScreen extends AbstractContainerScreen<PaladiumFu
 
 		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/paladium_furnace_1.png"), this.leftPos + 1, this.topPos + -1, 0, 0, 176, 166, 176, 166);
 
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire.png"), this.leftPos + 57, this.topPos + 36, 0, 0, 14, 13, 14, 13);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_1.png"), this.leftPos + 57, this.topPos + 37, 0, 0, 14, 12, 14, 12);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_2.png"), this.leftPos + 57, this.topPos + 38, 0, 0, 14, 11, 14, 11);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_3.png"), this.leftPos + 57, this.topPos + 39, 0, 0, 14, 10, 14, 10);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_4.png"), this.leftPos + 57, this.topPos + 40, 0, 0, 14, 9, 14, 9);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_5.png"), this.leftPos + 57, this.topPos + 41, 0, 0, 14, 8, 14, 8);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_6.png"), this.leftPos + 57, this.topPos + 42, 0, 0, 14, 7, 14, 7);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_7.png"), this.leftPos + 57, this.topPos + 43, 0, 0, 14, 6, 14, 6);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_8.png"), this.leftPos + 57, this.topPos + 44, 0, 0, 14, 5, 14, 5);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_9.png"), this.leftPos + 57, this.topPos + 45, 0, 0, 14, 4, 14, 4);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_10.png"), this.leftPos + 57, this.topPos + 46, 0, 0, 14, 3, 14, 3);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_11.png"), this.leftPos + 57, this.topPos + 47, 0, 0, 14, 2, 14, 2);
-
-		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_12.png"), this.leftPos + 57, this.topPos + 48, 0, 0, 14, 1, 14, 1);
+		if (FireTestProcedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire.png"), this.leftPos + 57, this.topPos + 36, 0, 0, 14, 13, 14, 13);
+		}
+		if (FireTest1Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_1.png"), this.leftPos + 57, this.topPos + 37, 0, 0, 14, 12, 14, 12);
+		}
+		if (FireTest2Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_2.png"), this.leftPos + 57, this.topPos + 38, 0, 0, 14, 11, 14, 11);
+		}
+		if (FireTest3Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_3.png"), this.leftPos + 57, this.topPos + 39, 0, 0, 14, 10, 14, 10);
+		}
+		if (FireTest4Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_4.png"), this.leftPos + 57, this.topPos + 40, 0, 0, 14, 9, 14, 9);
+		}
+		if (FireTest5Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_5.png"), this.leftPos + 57, this.topPos + 41, 0, 0, 14, 8, 14, 8);
+		}
+		if (FireTest6Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_6.png"), this.leftPos + 57, this.topPos + 42, 0, 0, 14, 7, 14, 7);
+		}
+		if (FireTest7Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_7.png"), this.leftPos + 57, this.topPos + 43, 0, 0, 14, 6, 14, 6);
+		}
+		if (FireTest8Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_8.png"), this.leftPos + 57, this.topPos + 44, 0, 0, 14, 5, 14, 5);
+		}
+		if (FireTest9Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_9.png"), this.leftPos + 57, this.topPos + 45, 0, 0, 14, 4, 14, 4);
+		}
+		if (FireTest10Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_10.png"), this.leftPos + 57, this.topPos + 46, 0, 0, 14, 3, 14, 3);
+		}
+		if (FireTest11Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_11.png"), this.leftPos + 57, this.topPos + 47, 0, 0, 14, 2, 14, 2);
+		}
+		if (FireTest12Procedure.execute(world, x, y, z)) {
+			guiGraphics.blit(new ResourceLocation("paladium:textures/screens/fire_12.png"), this.leftPos + 57, this.topPos + 48, 0, 0, 14, 1, 14, 1);
+		}
 
 		guiGraphics.blit(new ResourceLocation("paladium:textures/screens/arrow.png"), this.leftPos + 81, this.topPos + 33, 0, 0, 1, 16, 1, 16);
 

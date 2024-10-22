@@ -90,6 +90,9 @@
         "data": {
           "image": "fire.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest"
+          },
           "x": 183,
           "y": 73
         }
@@ -99,6 +102,9 @@
         "data": {
           "image": "fire_1.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest1"
+          },
           "x": 183,
           "y": 74
         }
@@ -108,6 +114,9 @@
         "data": {
           "image": "fire_2.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest2"
+          },
           "x": 183,
           "y": 75
         }
@@ -117,6 +126,9 @@
         "data": {
           "image": "fire_3.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest3"
+          },
           "x": 183,
           "y": 76
         }
@@ -126,6 +138,9 @@
         "data": {
           "image": "fire_4.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest4"
+          },
           "x": 183,
           "y": 77
         }
@@ -135,6 +150,9 @@
         "data": {
           "image": "fire_5.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest5"
+          },
           "x": 183,
           "y": 78
         }
@@ -144,6 +162,9 @@
         "data": {
           "image": "fire_6.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest6"
+          },
           "x": 183,
           "y": 79
         }
@@ -153,6 +174,9 @@
         "data": {
           "image": "fire_7.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest7"
+          },
           "x": 183,
           "y": 80
         }
@@ -162,6 +186,9 @@
         "data": {
           "image": "fire_8.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest8"
+          },
           "x": 183,
           "y": 81
         }
@@ -171,6 +198,9 @@
         "data": {
           "image": "fire_9.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest9"
+          },
           "x": 183,
           "y": 82
         }
@@ -180,6 +210,9 @@
         "data": {
           "image": "fire_10.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest10"
+          },
           "x": 183,
           "y": 83
         }
@@ -189,6 +222,9 @@
         "data": {
           "image": "fire_11.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest11"
+          },
           "x": 183,
           "y": 84
         }
@@ -198,6 +234,9 @@
         "data": {
           "image": "fire_12.png",
           "use1Xscale": false,
+          "displayCondition": {
+            "name": "FireTest12"
+          },
           "x": 183,
           "y": 85
         }
