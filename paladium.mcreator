@@ -1692,6 +1692,33 @@
         ]
       },
       "path": "~/PalaFurnace"
+    },
+    {
+      "name": "TestFurnace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_furnace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/TestFurnaceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PalaFurnace"
     }
   ],
   "variable_elements": [
@@ -1719,16 +1746,6 @@
       "~CUSTOM:PaladiumOre",
       "~CUSTOM:TitaneOre",
       "~CUSTOM:AmethystOre"
-    ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:PaladiumPickaxe",
-      "~CUSTOM:TitaneHammer",
-      "~CUSTOM:GreenPaladiumPickaxe",
-      "~CUSTOM:PaladiumHammer",
-      "~CUSTOM:TitanePickaxe",
-      "~CUSTOM:EndiumPickaxe",
-      "~CUSTOM:AmethystHammer",
-      "~CUSTOM:AmethystPickaxe"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:TrixiumBlock",
@@ -1765,6 +1782,16 @@
       "Blocks.STRUCTURE_BLOCK#4",
       "Blocks.JIGSAW"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:PaladiumPickaxe",
+      "~CUSTOM:TitaneHammer",
+      "~CUSTOM:GreenPaladiumPickaxe",
+      "~CUSTOM:PaladiumHammer",
+      "~CUSTOM:TitanePickaxe",
+      "~CUSTOM:EndiumPickaxe",
+      "~CUSTOM:AmethystHammer",
+      "~CUSTOM:AmethystPickaxe"
+    ],
     "ITEMS:minecraft:axes": [
       "~CUSTOM:EndiumAxe",
       "~CUSTOM:PaladiumAxe",
@@ -1772,7 +1799,61 @@
       "~CUSTOM:GreenPaladiumAxe",
       "~CUSTOM:AmethystAxe"
     ],
-    "ITEMS:minecraft:combustible": [],
+    "ITEMS:minecraft:combustible": [
+      "TAG:minecraft:planks",
+      "TAG:minecraft:wool",
+      "TAG:minecraft:wool_carpets",
+      "TAG:minecraft:logs",
+      "TAG:minecraft:saplings",
+      "TAG:minecraft:wooden_buttons",
+      "TAG:minecraft:wooden_doors",
+      "TAG:minecraft:banners",
+      "TAG:minecraft:wooden_pressure_plates",
+      "TAG:minecraft:wooden_slabs",
+      "TAG:minecraft:wooden_stairs",
+      "TAG:minecraft:boats",
+      "TAG:minecraft:wooden_trapdoors",
+      "TAG:minecraft:signs",
+      "TAG:minecraft:beds",
+      "TAG:minecraft:coals",
+      "TAG:minecraft:wooden_fences",
+      "TAG:minecraft:fence_gates",
+      "TAG:minecraft:bamboo_blocks",
+      "Items.LAVA_BUCKET",
+      "Blocks.COAL_BLOCK",
+      "Blocks.DRIED_KELP_BLOCK",
+      "Items.BLAZE_ROD",
+      "Blocks.MANGROVE_ROOTS",
+      "Blocks.CRAFTING_TABLE",
+      "Blocks.BOOKSHELF",
+      "Blocks.CHISELED_BOOKSHELF",
+      "Blocks.CHEST",
+      "Blocks.TRAPPED_CHEST",
+      "Blocks.DAYLIGHT_DETECTOR",
+      "Blocks.JUKEBOX",
+      "Blocks.NOTEBLOCK",
+      "Blocks.BROWN_MUSHROOM_BLOCK",
+      "Blocks.RED_MUSHROOM_BLOCK",
+      "Items.FISHING_ROD",
+      "Blocks.LADDER",
+      "Items.BOW",
+      "Items.WOODEN_SWORD",
+      "Items.WOODEN_PICKAXE",
+      "Items.WOODEN_AXE",
+      "Items.WOODEN_SHOVEL",
+      "Items.WOODEN_HOE",
+      "Items.BOWL",
+      "Items.STICK",
+      "Blocks.BAMBOO",
+      "Blocks.SCAFFOLDING",
+      "Blocks.LOOM",
+      "Blocks.BARREL",
+      "Blocks.CARTOGRAPHY_TABLE",
+      "Blocks.FLETCHING_TABLE",
+      "Blocks.LECTERN",
+      "Blocks.SMITHING_TABLE",
+      "Blocks.COMPOSTER"
+    ],
     "ITEMS:minecraft:swords": [
       "~CUSTOM:EndiumSword",
       "~CUSTOM:GreenPaladiumSword",
@@ -1861,8 +1942,8 @@
   "language_map": {
     "en_us": {
       "item.paladium.amethyst_armor_leggings": "Amethyst Leggings",
-      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.amethyst_armor_helmet": "Amethyst Helmet",
+      "item.paladium.green_paladium_armor_chestplate": "Green Paladium Chestplate",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Green Paladium Pickaxe",
       "item.paladium.amethyst_sword": "Amethyst Sword",
@@ -1940,8 +2021,8 @@
     },
     "fr_fr": {
       "item.paladium.amethyst_armor_leggings": "Jambières en Améthyste",
-      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.green_paladium_armor_chestplate": "Plastron en Paladium Vert",
+      "item.paladium.amethyst_armor_helmet": "Casque en Améthyste",
       "item.paladium.paladium_armor_boots": "Paladium Boots",
       "item.paladium.green_paladium_pickaxe": "Pioche en Paladium Vert",
       "item.paladium.amethyst_sword": "Épée en Améthyste",
