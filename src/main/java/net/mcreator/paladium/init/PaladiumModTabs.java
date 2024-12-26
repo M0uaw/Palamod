@@ -90,6 +90,12 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.PALADIUM_PICKAXE_HEAD.get());
 				tabData.accept(PaladiumModItems.PALADIUM_SHOVEL_HEAD.get());
 				tabData.accept(PaladiumModItems.PALADIUM_SWORD_HEAD.get());
+				tabData.accept(PaladiumModItems.AMETHYST_BROADSWORD.get());
+				tabData.accept(PaladiumModItems.TITANE_BROADSWORD.get());
+				tabData.accept(PaladiumModItems.PALADIUM_BROADSWORD.get());
+				tabData.accept(PaladiumModItems.AMETHYST_FASTSWORD.get());
+				tabData.accept(PaladiumModItems.TITANE_FASTSWORD.get());
+				tabData.accept(PaladiumModItems.PALADIUM_FASTSWORD.get());
 				tabData.accept(PaladiumModItems.AMETHYST_HAMMER.get());
 				tabData.accept(PaladiumModItems.TITANE_HAMMER.get());
 				tabData.accept(PaladiumModItems.PALADIUM_HAMMER.get());
@@ -107,11 +113,5 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModBlocks.PALADIUM_FURNACE.get().asItem());
 				tabData.accept(PaladiumModItems.FURNACE_UPGRADE.get());
 				tabData.accept(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK.get().asItem());
-				tabData.accept(PaladiumModItems.AMETHYST_BROADSWORD.get());
-				tabData.accept(PaladiumModItems.TITANE_BROADSWORD.get());
-				tabData.accept(PaladiumModItems.PALADIUM_BROADSWORD.get());
-				tabData.accept(PaladiumModItems.AMETHYST_FASTSWORD.get());
-				tabData.accept(PaladiumModItems.TITANE_FASTSWORD.get());
-				tabData.accept(PaladiumModItems.PALADIUM_FASTSWORD.get());
 			}).withSearchBar().build());
 }
