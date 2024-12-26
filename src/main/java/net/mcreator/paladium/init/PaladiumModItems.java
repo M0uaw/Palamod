@@ -23,13 +23,20 @@ import net.mcreator.paladium.item.TitaneExcavatorItem;
 import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.PaladiumSwordItem;
+import net.mcreator.paladium.item.PaladiumSwordHeadItem;
 import net.mcreator.paladium.item.PaladiumStickItem;
 import net.mcreator.paladium.item.PaladiumShovelItem;
+import net.mcreator.paladium.item.PaladiumShovelHeadItem;
 import net.mcreator.paladium.item.PaladiumPickaxeItem;
+import net.mcreator.paladium.item.PaladiumPickaxeHeadItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
 import net.mcreator.paladium.item.PaladiumHammerItem;
+import net.mcreator.paladium.item.PaladiumHammerHeadItem;
+import net.mcreator.paladium.item.PaladiumFastswordHeadItem;
 import net.mcreator.paladium.item.PaladiumExcavatorItem;
+import net.mcreator.paladium.item.PaladiumBroadswordHeadItem;
 import net.mcreator.paladium.item.PaladiumAxeItem;
+import net.mcreator.paladium.item.PaladiumAxeHeadItem;
 import net.mcreator.paladium.item.PaladiumArmorItem;
 import net.mcreator.paladium.item.GreenPaladiumSwordItem;
 import net.mcreator.paladium.item.GreenPaladiumShovelItem;
@@ -133,6 +140,13 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> PALADIUM_EXCAVATOR = REGISTRY.register("paladium_excavator", () -> new PaladiumExcavatorItem());
 	public static final RegistryObject<Item> FURNACE_UPGRADE = REGISTRY.register("furnace_upgrade", () -> new FurnaceUpgradeItem());
 	public static final RegistryObject<Item> PALADIUM_FURNACE = block(PaladiumModBlocks.PALADIUM_FURNACE);
+	public static final RegistryObject<Item> PALADIUM_FASTSWORD_HEAD = REGISTRY.register("paladium_fastsword_head", () -> new PaladiumFastswordHeadItem());
+	public static final RegistryObject<Item> PALADIUM_BROADSWORD_HEAD = REGISTRY.register("paladium_broadsword_head", () -> new PaladiumBroadswordHeadItem());
+	public static final RegistryObject<Item> PALADIUM_PICKAXE_HEAD = REGISTRY.register("paladium_pickaxe_head", () -> new PaladiumPickaxeHeadItem());
+	public static final RegistryObject<Item> PALADIUM_HAMMER_HEAD = REGISTRY.register("paladium_hammer_head", () -> new PaladiumHammerHeadItem());
+	public static final RegistryObject<Item> PALADIUM_SWORD_HEAD = REGISTRY.register("paladium_sword_head", () -> new PaladiumSwordHeadItem());
+	public static final RegistryObject<Item> PALADIUM_AXE_HEAD = REGISTRY.register("paladium_axe_head", () -> new PaladiumAxeHeadItem());
+	public static final RegistryObject<Item> PALADIUM_SHOVEL_HEAD = REGISTRY.register("paladium_shovel_head", () -> new PaladiumShovelHeadItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
