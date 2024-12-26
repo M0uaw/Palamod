@@ -99,5 +99,13 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModItems.PALADIUM_SWORD_HEAD.get());
 				tabData.accept(PaladiumModItems.PALADIUM_AXE_HEAD.get());
 				tabData.accept(PaladiumModItems.PALADIUM_SHOVEL_HEAD.get());
+				tabData.accept(PaladiumModItems.SMELT_MODIFIER.get());
+				tabData.accept(PaladiumModItems.FORTUNE_MODIFIER.get());
+				tabData.accept(PaladiumModItems.SPEED_MODIFIER.get());
+				tabData.accept(PaladiumModItems.MORE_UPGRADE_MODIFIER.get());
+				tabData.accept(PaladiumModItems.KNOCKBACK_MODIFIER.get());
+				tabData.accept(PaladiumModItems.DAMAGE_MODIFIER.get());
+				tabData.accept(PaladiumModItems.FLAME_MODIFIER.get());
+				tabData.accept(PaladiumModItems.AUTO_REPAIR_MODIFIER.get());
 			}).withSearchBar().build());
 }
