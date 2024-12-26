@@ -2023,6 +2023,22 @@
         ]
       },
       "path": "~/Tools"
+    },
+    {
+      "name": "Grinder",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paladium/models/item/grinder.json",
+          "src/main/java/net/mcreator/paladium/block/GrinderBlock.java",
+          "src/main/resources/assets/paladium/blockstates/grinder.json",
+          "src/main/resources/data/paladium/loot_tables/blocks/grinder.json",
+          "src/main/resources/assets/paladium/models/block/grinder.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -2267,7 +2283,8 @@
       "AutoRepairModifier",
       "PaladiumFurnace",
       "FurnaceUpgrade",
-      "PaladiumLuckyBlock"
+      "PaladiumLuckyBlock",
+      "Grinder"
     ]
   },
   "language_map": {
@@ -2278,14 +2295,14 @@
       "item.paladium.flame_modifier": "Flame Modifier",
       "item.paladium.fortune_modifier": "Fortune Modifier",
       "block.paladium.paladium_lucky_block": "Paladium Lucky Block",
-      "block.paladium.endium_ore": "Endium Ore",
       "item.paladium.endium_nugget": "Endium Nugget",
+      "block.paladium.endium_ore": "Endium Ore",
       "item.paladium.paladium_shovel_head": "Paladium Shovel Head",
       "block.paladium.findium_ore": "Findium Ore",
       "block.paladium.titane_ore": "Titane Ore",
       "item.paladium.titane_ingot": "Titane Ingot",
-      "item.paladium.amethyst_excavator": "Amethyst Excavator",
       "item.paladium.endium_pickaxe": "Endium Pickaxe",
+      "item.paladium.amethyst_excavator": "Amethyst Excavator",
       "item.paladium.amethyst_broadsword": "Amethyst Broadsword",
       "item.paladium.endium_armor_boots": "Endium Boots",
       "item.paladium.knockback_modifier": "Knockback Modifier",
@@ -2307,9 +2324,9 @@
       "item.paladium.damage_modifier": "Damage Modifier",
       "block.paladium.amethyst_block": "Amethyst Block",
       "item.paladium.paladium_pickaxe_head": "Paladium Pickaxe Head",
-      "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
-      "item.paladium.amethyst_stick": "Amethyst Stick",
       "item.paladium.findium": "Findium",
+      "item.paladium.amethyst_stick": "Amethyst Stick",
+      "item.paladium.amethyst_armor_chestplate": "Amethyst Chestplate",
       "item.paladium.paladium_axe": "Paladium Axe",
       "item.paladium.green_paladium_sword": "Green Paladium Sword",
       "item.paladium.endium_armor_helmet": "Endium Helmet",
@@ -2319,8 +2336,8 @@
       "item.paladium.titane_armor_chestplate": "Titane Chestplate",
       "item.paladium.paladium_excavator": "Paladium Excavator",
       "item.paladium.titane_excavator": "Titane Excavator",
-      "item.paladium.paladium_axe_head": "Paladium Axe Head",
       "item_group.paladium.paladium": "Palamod",
+      "item.paladium.paladium_axe_head": "Paladium Axe Head",
       "item.paladium.titane_armor_boots": "Titane Boots",
       "item.paladium.paladium_sword_head": "Paladium Sword Head",
       "item.paladium.endium_axe": "Endium Axe",
@@ -2363,6 +2380,7 @@
       "item.paladium.titane_hammer": "Titane Hammer",
       "item.paladium.furnace_upgrade": "Furnace Upgrade",
       "block.paladium.endium_block": "Endium Block",
+      "block.paladium.grinder": "Grinder",
       "item.paladium.paladium_hammer_head": "Paladium Hammer Head",
       "item.paladium.titane_broadsword": "Titane Broadsword",
       "item.paladium.paladium_broadsword": "Paladium Broadsword",
@@ -2378,15 +2396,15 @@
       "item.paladium.flame_modifier": "Modifieur de Flamme",
       "item.paladium.fortune_modifier": "Modifieur de Chance",
       "block.paladium.paladium_lucky_block": "Lucky Block en Paladium",
-      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
       "block.paladium.endium_ore": "Minerai d\u0027Endium",
+      "item.paladium.endium_nugget": "Pépite d\u0027Endium",
       "item.paladium.paladium_shovel_head": "Tête de Pelle en Paladium",
       "block.paladium.findium_ore": "Minerai de Findium ",
       "block.paladium.titane_ore": "Minerai de Titane",
       "item.paladium.titane_ingot": "Lingot de Titane",
-      "item.paladium.findium_ingot": "Findium",
-      "item.paladium.endium_pickaxe": "Pioche en Endium",
       "item.paladium.amethyst_excavator": "Excavatrice en Améthyste",
+      "item.paladium.endium_pickaxe": "Pioche en Endium",
+      "item.paladium.findium_ingot": "Findium",
       "item.paladium.amethyst_broadsword": "Glaive en Améthyste",
       "item.paladium.endium_armor_boots": "Bottes en Endium",
       "item.paladium.knockback_modifier": "Modifieur de Recul",
@@ -2409,9 +2427,9 @@
       "item.paladium.damage_modifier": "Modifieur de Dégâts",
       "block.paladium.amethyst_block": "Bloc d\u0027Améthyste",
       "item.paladium.paladium_pickaxe_head": "Tête de Pioche en Paladium",
-      "item.paladium.amethyst_stick": "Bâton en Améthyste",
-      "item.paladium.findium": "Findium",
       "item.paladium.amethyst_armor_chestplate": "Plastron en Améthyste",
+      "item.paladium.findium": "Findium",
+      "item.paladium.amethyst_stick": "Bâton en Améthyste",
       "item.paladium.paladium_axe": "Hache en Paladium",
       "item.paladium.green_paladium_sword": "Épée en Paladium Vert",
       "item.paladium.endium_armor_helmet": "Casque en Endium",
@@ -2465,6 +2483,7 @@
       "item.paladium.titane_hammer": "Marteau en Titane",
       "item.paladium.furnace_upgrade": "Amélioration de Fourneau",
       "block.paladium.endium_block": "Bloc d\u0027Endium",
+      "block.paladium.grinder": "Grinder",
       "item.paladium.paladium_hammer_head": "Tête de Marteau en Paladium",
       "item.paladium.titane_broadsword": "Glaive en Titane",
       "item.paladium.paladium_broadsword": "Glaive en Paladium",

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "paladium:block/grinder_block_side",
+    "up": "paladium:block/grinder_block_side",
+    "north": "paladium:block/grinder_block_front",
+    "east": "paladium:block/grinder_block_side",
+    "south": "paladium:block/grinder_block_side",
+    "west": "paladium:block/grinder_block_side",
+    "particle": "paladium:block/grinder_block_side"
+  },
+  "render_type": "solid"
+}

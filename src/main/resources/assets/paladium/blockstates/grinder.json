@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paladium:block/grinder"
+    },
+    "facing=east": {
+      "model": "paladium:block/grinder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paladium:block/grinder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paladium:block/grinder",
+      "y": 270
+    }
+  }
+}

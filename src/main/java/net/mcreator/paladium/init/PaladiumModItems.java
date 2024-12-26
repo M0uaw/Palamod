@@ -175,6 +175,7 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> AMETHYST_FASTSWORD = REGISTRY.register("amethyst_fastsword", () -> new AmethystFastswordItem());
 	public static final RegistryObject<Item> TITANE_FASTSWORD = REGISTRY.register("titane_fastsword", () -> new TitaneFastswordItem());
 	public static final RegistryObject<Item> PALADIUM_FASTSWORD = REGISTRY.register("paladium_fastsword", () -> new PaladiumFastswordItem());
+	public static final RegistryObject<Item> GRINDER = block(PaladiumModBlocks.GRINDER);
 
 	// Start of user code block custom items
 	// End of user code block custom items

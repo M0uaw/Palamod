@@ -113,5 +113,6 @@ public class PaladiumModTabs {
 				tabData.accept(PaladiumModBlocks.PALADIUM_FURNACE.get().asItem());
 				tabData.accept(PaladiumModItems.FURNACE_UPGRADE.get());
 				tabData.accept(PaladiumModBlocks.PALADIUM_LUCKY_BLOCK.get().asItem());
+				tabData.accept(PaladiumModBlocks.GRINDER.get().asItem());
 			}).withSearchBar().build());
 }
