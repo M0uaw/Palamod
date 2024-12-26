@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
+    "paladium:paladium_fastsword",
+    "paladium:titane_fastsword",
+    "paladium:amethyst_fastsword",
+    "paladium:paladium_broadsword",
+    "paladium:titane_broadsword",
+    "paladium:amethyst_broadsword",
     "paladium:endium_sword",
     "paladium:green_paladium_sword",
     "paladium:paladium_sword",

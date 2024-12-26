@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "paladium_green_sword",
+    "texture": "titane_fastsword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Green Paladium Sword",
+    "name": "Titane Fastsword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -17,21 +17,21 @@
         "value": "CUSTOM:Paladium"
       }
     ],
-    "efficiency": 8.0,
-    "attackSpeed": 1.6,
+    "efficiency": 6.0,
+    "attackSpeed": 2.3,
     "enchantability": 10,
-    "damageVsEntity": 10.0,
-    "usageCount": 4999,
+    "damageVsEntity": 5.5,
+    "usageCount": 2999,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:GreenPaladiumIngot"
+        "value": "CUSTOM:TitaneIngot"
       }
     ],
     "immuneToFire": false,
-    "blockDropsTier": "DIAMOND",
+    "blockDropsTier": "IRON",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

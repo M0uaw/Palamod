@@ -19,7 +19,9 @@ import net.mcreator.paladium.item.TitaneShovelItem;
 import net.mcreator.paladium.item.TitanePickaxeItem;
 import net.mcreator.paladium.item.TitaneIngotItem;
 import net.mcreator.paladium.item.TitaneHammerItem;
+import net.mcreator.paladium.item.TitaneFastswordItem;
 import net.mcreator.paladium.item.TitaneExcavatorItem;
+import net.mcreator.paladium.item.TitaneBroadswordItem;
 import net.mcreator.paladium.item.TitaneAxeItem;
 import net.mcreator.paladium.item.TitaneArmorItem;
 import net.mcreator.paladium.item.SpeedModifierItem;
@@ -34,8 +36,10 @@ import net.mcreator.paladium.item.PaladiumPickaxeHeadItem;
 import net.mcreator.paladium.item.PaladiumIngotItem;
 import net.mcreator.paladium.item.PaladiumHammerItem;
 import net.mcreator.paladium.item.PaladiumHammerHeadItem;
+import net.mcreator.paladium.item.PaladiumFastswordItem;
 import net.mcreator.paladium.item.PaladiumFastswordHeadItem;
 import net.mcreator.paladium.item.PaladiumExcavatorItem;
+import net.mcreator.paladium.item.PaladiumBroadswordItem;
 import net.mcreator.paladium.item.PaladiumBroadswordHeadItem;
 import net.mcreator.paladium.item.PaladiumAxeItem;
 import net.mcreator.paladium.item.PaladiumAxeHeadItem;
@@ -68,7 +72,9 @@ import net.mcreator.paladium.item.AmethystPickaxeItem;
 import net.mcreator.paladium.item.AmethystItem;
 import net.mcreator.paladium.item.AmethystIngotItem;
 import net.mcreator.paladium.item.AmethystHammerItem;
+import net.mcreator.paladium.item.AmethystFastswordItem;
 import net.mcreator.paladium.item.AmethystExcavatorItem;
+import net.mcreator.paladium.item.AmethystBroadswordItem;
 import net.mcreator.paladium.item.AmethystAxeItem;
 import net.mcreator.paladium.PaladiumMod;
 
@@ -163,6 +169,12 @@ public class PaladiumModItems {
 	public static final RegistryObject<Item> DAMAGE_MODIFIER = REGISTRY.register("damage_modifier", () -> new DamageModifierItem());
 	public static final RegistryObject<Item> FLAME_MODIFIER = REGISTRY.register("flame_modifier", () -> new FlameModifierItem());
 	public static final RegistryObject<Item> AUTO_REPAIR_MODIFIER = REGISTRY.register("auto_repair_modifier", () -> new AutoRepairModifierItem());
+	public static final RegistryObject<Item> AMETHYST_BROADSWORD = REGISTRY.register("amethyst_broadsword", () -> new AmethystBroadswordItem());
+	public static final RegistryObject<Item> TITANE_BROADSWORD = REGISTRY.register("titane_broadsword", () -> new TitaneBroadswordItem());
+	public static final RegistryObject<Item> PALADIUM_BROADSWORD = REGISTRY.register("paladium_broadsword", () -> new PaladiumBroadswordItem());
+	public static final RegistryObject<Item> AMETHYST_FASTSWORD = REGISTRY.register("amethyst_fastsword", () -> new AmethystFastswordItem());
+	public static final RegistryObject<Item> TITANE_FASTSWORD = REGISTRY.register("titane_fastsword", () -> new TitaneFastswordItem());
+	public static final RegistryObject<Item> PALADIUM_FASTSWORD = REGISTRY.register("paladium_fastsword", () -> new PaladiumFastswordItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

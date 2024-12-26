@@ -4,7 +4,10 @@ package net.mcreator.paladium.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+
+import net.mcreator.paladium.init.PaladiumModItems;
 
 public class GreenPaladiumSwordItem extends SwordItem {
 	public GreenPaladiumSwordItem() {
@@ -30,7 +33,7 @@ public class GreenPaladiumSwordItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(PaladiumModItems.GREEN_PALADIUM_INGOT.get()));
 			}
 		}, 3, -2.4f, new Item.Properties());
 	}

@@ -25,7 +25,11 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:AmethystIngot"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "IRON",
     "blocksAffected": [],

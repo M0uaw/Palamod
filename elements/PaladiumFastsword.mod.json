@@ -5,10 +5,10 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "paladium_green_sword",
+    "texture": "paladium_fastsword",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Green Paladium Sword",
+    "name": "Paladium Fastsword",
     "specialInformation": {
       "fixedValue": []
     },
@@ -18,16 +18,16 @@
       }
     ],
     "efficiency": 8.0,
-    "attackSpeed": 1.6,
+    "attackSpeed": 2.5,
     "enchantability": 10,
-    "damageVsEntity": 10.0,
+    "damageVsEntity": 8.0,
     "usageCount": 4999,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [
       {
-        "value": "CUSTOM:GreenPaladiumIngot"
+        "value": "CUSTOM:PaladiumIngot"
       }
     ],
     "immuneToFire": false,

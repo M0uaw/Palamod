@@ -25,7 +25,11 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaneIngot"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "IRON",
     "blocksAffected": [],
