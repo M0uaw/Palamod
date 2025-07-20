@@ -12,7 +12,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AmethystIngot"
+        "value": "CUSTOM:TitaneIngot"
       },
       {
         "value": ""
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:AmethystIngot"
+        "value": "CUSTOM:TitaneIngot"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystStick"
+      "value": "CUSTOM:TitaneStick"
     },
-    "name": "amethyst_stick_recipe",
+    "name": "titane_stick_recipe",
     "namespace": "mod"
   }
 }

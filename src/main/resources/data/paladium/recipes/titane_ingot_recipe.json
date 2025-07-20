@@ -1,18 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "stick",
   "category": "misc",
   "pattern": [
-    "a",
     "a"
   ],
   "key": {
     "a": {
-      "item": "paladium:amethyst_ingot"
+      "item": "paladium:titane_block"
     }
   },
   "result": {
-    "item": "paladium:amethyst_stick",
-    "count": 4
+    "item": "paladium:titane_ingot",
+    "count": 9
   }
 }

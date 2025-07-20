@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "paladium:amethyst_ingot"
+      "item": "paladium:titane_ingot"
     }
   },
   "result": {
-    "item": "paladium:amethyst_stick",
+    "item": "paladium:titane_stick",
     "count": 4
   }
 }

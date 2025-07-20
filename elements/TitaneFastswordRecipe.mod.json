@@ -3,16 +3,16 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
-    "group": "stick",
+    "recipeRetstackSize": 1,
+    "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "craftingBookCategory": "MISC",
+    "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:AmethystIngot"
+        "value": "CUSTOM:TitaneStick"
       },
       {
         "value": ""
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:AmethystIngot"
+        "value": "CUSTOM:TitaneStick"
       },
       {
         "value": ""
@@ -30,7 +30,7 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AmethystStick"
+      "value": "CUSTOM:TitaneFastsword"
     },
-    "name": "amethyst_stick_recipe",
+    "name": "titane_fastsword_recipe",
     "namespace": "mod"
   }
 }

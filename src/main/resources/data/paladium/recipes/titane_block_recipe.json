@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "paladium:titane_ingot"
+    }
+  },
+  "result": {
+    "item": "paladium:titane_block",
+    "count": 1
+  }
+}

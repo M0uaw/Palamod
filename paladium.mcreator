@@ -2051,7 +2051,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_sword_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystPickaxeRecipe",
@@ -2064,7 +2064,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystAxeRecipe",
@@ -2077,7 +2077,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_axe_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystShovelRecipe",
@@ -2090,7 +2090,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_shovel_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystHammerRecipe",
@@ -2103,7 +2103,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_hammer_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystIngotItemInInventoryTick",
@@ -2135,7 +2135,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_helmet_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystChestplateRecipe",
@@ -2148,7 +2148,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_chestplate_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystLeggingsRecipe",
@@ -2161,7 +2161,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_leggings_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystBootsRecipe",
@@ -2174,7 +2174,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_boots_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystBroadswordRecipe",
@@ -2187,7 +2187,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_broadsword_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystFastswordRecipe",
@@ -2200,7 +2200,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_fastsword_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystStickRecipe",
@@ -2213,7 +2213,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_stick_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystBlockRecipe",
@@ -2226,7 +2226,7 @@
           "src/main/resources/data/paladium/recipes/amethyst_block_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
     },
     {
       "name": "AmethystIngotRecipe",
@@ -2239,7 +2239,208 @@
           "src/main/resources/data/paladium/recipes/amethyst_ingot_recipe.json"
         ]
       },
-      "path": "~/Craft"
+      "path": "~/Craft/Amethyst Related"
+    },
+    {
+      "name": "TitaneSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_sword_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitanePickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_axe_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_boots_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneBroadswordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_broadsword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_broadsword_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneFastswordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_fastsword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_fastsword_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_stick_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_block_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneIngotRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/titane_ingot_recipe.json"
+        ]
+      },
+      "path": "~/Craft/Titane Related"
+    },
+    {
+      "name": "TitaneIngotItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titane_ingot_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/TitaneIngotItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ingots-nugget"
     }
   ],
   "variable_elements": [
@@ -2725,7 +2926,16 @@
       },
       {
         "name": "Craft",
-        "children": []
+        "children": [
+          {
+            "name": "Amethyst Related",
+            "children": []
+          },
+          {
+            "name": "Titane Related",
+            "children": []
+          }
+        ]
       }
     ]
   },
