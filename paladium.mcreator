@@ -2039,6 +2039,142 @@
           "src/main/resources/assets/paladium/models/block/grinder.json"
         ]
       }
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_sword_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_axe_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystIngotItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_ingot_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/paladium/procedures/AmethystIngotItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ingots-nugget"
+    },
+    {
+      "name": "AmethystHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
+    },
+    {
+      "name": "AmethystBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paladium/recipes/amethyst_boots_recipe.json"
+        ]
+      },
+      "path": "~/Craft"
     }
   ],
   "variable_elements": [
@@ -2522,6 +2658,10 @@
       },
       {
         "name": "Modifier",
+        "children": []
+      },
+      {
+        "name": "Craft",
         "children": []
       }
     ]
