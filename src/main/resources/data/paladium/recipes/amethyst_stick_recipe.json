@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "paladium:amethyst_ingot"
+    }
+  },
+  "result": {
+    "item": "paladium:amethyst_stick",
+    "count": 4
+  }
+}

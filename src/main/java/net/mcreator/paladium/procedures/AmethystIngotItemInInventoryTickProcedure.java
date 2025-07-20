@@ -26,5 +26,15 @@ public class AmethystIngotItemInInventoryTickProcedure {
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_leggins_recipe")});
 		if (entity instanceof ServerPlayer _serverPlayer)
 			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_boots_recipe")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_broadsword_recipe")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_fastsword_recipe")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_stick_recipe")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_block_recipe")});
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.awardRecipesByKey(new ResourceLocation[]{new ResourceLocation("paladium:amethyst_ingot_recipe")});
 	}
 }

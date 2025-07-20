@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aa",
+    "aa",
+    "b "
+  ],
+  "key": {
+    "a": {
+      "item": "paladium:amethyst_ingot"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "paladium:amethyst_broadsword",
+    "count": 1
+  }
+}
